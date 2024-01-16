@@ -1,0 +1,68 @@
+name: Hello World!
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: [main]
+    types:
+      [opened, synchronize]
+      # note that your "main" branch might be called main instead of master
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: Install client dependencies and build
+        working-directory: ./client
+        run: |
+          npm install
+          npm run build
+      - name: Check client style
+        run: cd client && npm run lint
+
+  simple_deployment_pipeline:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Trigger deployment client
+        if: ${{ github.event_name == 'push' }}
+        run: curl https://api.render.com/deploy/srv-${{ secrets.MY_RENDER_SERVICE_ID }}?key=${{ secrets.MY_RENDER_API_KEY }}
+      - name: Trigger deployment server
+        if: ${{ github.event_name == 'push' }}
+        run: curl https://api.render.com/deploy/srv-${{ secrets.MY_RENDER_SERVICE_SRVER_ID }}?key=${{ secrets.MY_RENDER_SRVER_API_KEY }}
+  tag_release:
+    needs: [simple_deployment_pipeline]
+    runs-on: ubuntu-20.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Bump version and push tag
+        if: ${{ !contains(join(github.event.commits.*.message, ', '), '#skip' ) }}
+        uses: anothrNick/github-tag-action@1.64.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+          WITH_V: true
+          PRERELEASE: true
+          DEFAULT_BUMP: patch
+  # a_test_job:
+  #   runs-on: ubuntu-20.04
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: github context
+  #       env:
+  #         GITHUB_CONTEXT: ${{ toJson(github) }}
+  #       run: echo "$GITHUB_CONTEXT"
+  #     - name: commits
+  #       env:
+  #         COMMITS: ${{ toJson(github.event.commits) }}
+  #       run: echo "$COMMITS"
+  #     - name: commit messages
+  #       env:
+  #         COMMIT_MESSAGES: ${{ toJson(github.event.commits.*.message) }}
+  #       run: echo "$COMMIT_MESSAGES"
