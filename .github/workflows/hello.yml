@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: "18"
       - name: Install client dependencies and build
-        working-directory: ./client
+        working-directory: ./
         run: |
           npm install
           npm run build
