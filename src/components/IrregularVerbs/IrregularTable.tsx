@@ -1,95 +1,95 @@
-import * as React from "react";
+"use client";
+import { useState } from "react";
 import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import {
-  StyledTableCell,
-  StyledTableRow,
-  StyledTableSortLabel,
-} from "./IrregularTable.styles";
-import { Tooltip, Typography } from "@mui/material";
+import { FormControlLabel, Switch, TableCell, TextField } from "@mui/material";;
+import TableItem from "./TableItem";
 
 interface IProps {
   verbs: IIrregularVerbs[];
 }
-type Order = "asc" | "desc";
+interface GroupedObject {
+  [key: string]: any[];
+}
 
 const IrregularTable = ({ verbs }: IProps) => {
-  const [sortOrder, setSortOrder] = React.useState<Order>("asc");
-  
-  const rows = verbs.sort((a, b) => {
-    return sortOrder === "asc"
-      ? a.infinitive.word.localeCompare(b.infinitive.word)
-      : b.infinitive.word.localeCompare(a.infinitive.word);
-  });
+  const [search, setSearch] = useState<string>("");
+  const [isTranscription, setIsTranscription] = useState<boolean>(false);
+  const [isGroups, setIsisGroups] = useState<boolean>(false);
+
+  const rows = verbs.filter((el) => el.infinitive.word.includes(search));
+
+  const filteredRows = verbs.filter((el) => el.infinitive.word.includes(search));
+  const workRows: IIrregularVerbs[][] = isGroups
+    ? Object.values(
+        filteredRows.reduce((acc: GroupedObject, obj) => {
+          const groupKey = obj.group;
+          if (!acc[groupKey]) {
+            acc[groupKey] = [];
+          }
+          acc[groupKey].push(obj);
+          return acc;
+        }, {})
+      )
+    : [filteredRows];
 
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell align="center">
-              V1
-              <StyledTableSortLabel
-                active
-                direction={sortOrder}
-                onClick={() =>
-                  setSortOrder(sortOrder === "asc" ? "desc" : "asc")
-                }
-              ></StyledTableSortLabel>
-            </StyledTableCell>
-            <StyledTableCell align="center">V2</StyledTableCell>
-            <StyledTableCell align="center">V3</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <StyledTableRow key={row.infinitive.word}>
+    <>
+      <TableContainer component={Paper}>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell sx={{ padding: 0 }}>
+                <TextField
+                  placeholder="search"
+                  variant="outlined"
+                  size="small"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                />
+              </TableCell>
+              <TableCell sx={{ padding: 0 }}>
+                <FormControlLabel
+                  label="transcription: "
+                  control={
+                    <Switch
+                      value={isTranscription}
+                      onChange={() => setIsTranscription((value) => !value)}
+                    />
+                  }
+                  labelPlacement="start"
+                />
+              </TableCell>
+              <TableCell sx={{ padding: 0 }}>
+                <FormControlLabel
+                  label="group: "
+                  control={
+                    <Switch
+                      value={isGroups}
+                      onChange={() => setIsisGroups((value) => !value)}
+                    />
+                  }
+                  labelPlacement="start"
+                />
+              </TableCell>
+            </TableRow>
+          </TableHead>
+        </Table>
 
-              <StyledTableCell
-                align="left"
-                style={{
-                  width: "33.33%",
-                  backgroundColor: "#fff3dd", // Цвет фона для первой колонки
-                }}
-              >
-                <Tooltip title={row.translations.ru}>
-                  <span>{row.infinitive.word}</span>
-                </Tooltip>
-              </StyledTableCell>
-
-              <StyledTableCell
-                align="left"
-                style={{
-                  width: "33.33%",
-                  backgroundColor: "#d9e7f7", // Цвет фона для первой колонки
-                }}
-              >
-                <Tooltip title={row.translations.ru}>
-                  <span>{row.pastSimple.word}</span>
-                </Tooltip>
-              </StyledTableCell>
-
-              <StyledTableCell
-                align="left"
-                style={{
-                  width: "33.33%",
-                  backgroundColor: "#fbdede", // Цвет фона для первой колонки
-                }}
-              >
-                <Tooltip title={row.translations.ru}>
-                  <span>{row.pastParticiple.word}</span>
-                </Tooltip>
-              </StyledTableCell>
-
-            </StyledTableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+        {workRows.map((rows, i) => (
+        <TableItem
+          key={i}
+          title={isGroups ? rows[0].group : undefined}
+          data={rows}
+          isTranscription={isTranscription}
+        />
+      ))}
+        {/* </Table> */}
+      </TableContainer>
+    </>
   );
 };
 

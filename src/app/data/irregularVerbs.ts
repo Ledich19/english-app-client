@@ -435,33 +435,6 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
-        "infinitive": {
-          "word": "bid",
-          "transcription": "bɪd / beɪd"
-        },
-        "pastSimple": {
-          "word": "bid / bade",
-          "transcription": "bɪd / beɪd"
-        },
-        "pastParticiple": {
-          "word": "bidden",
-          "transcription": "ˈbɪdən"
-        },
-        "name": [
-          "bid",
-          "bɪd / beɪd"
-        ],
-        "translations": {
-          "ua": "запрошувати, вітати, прощатися",
-          "ru": "приглашать, приветствовать, прощаться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
         "group": "v1 = v2",
         "infinitive": {
           "word": "bid",
@@ -3857,60 +3830,6 @@ export const irregularVerbs =
         "translations": {
           "ua": "возмещать",
           "ru": "возмещать, компенсировать, ответвляться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "outbid",
-          "transcription": "ˌaʊtˈbɪd"
-        },
-        "pastSimple": {
-          "word": "outbid",
-          "transcription": "ˌaʊtˈbɪd"
-        },
-        "pastParticiple": {
-          "word": "outbid",
-          "transcription": "ˌaʊtˈbɪd"
-        },
-        "name": [
-          "outbid",
-          "ˌaʊtˈbɪd"
-        ],
-        "translations": {
-          "ua": "перебивать цену",
-          "ru": "перебивать цену, превзойти, затмить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outdraw",
-          "transcription": "aʊtˈdrɔ"
-        },
-        "pastSimple": {
-          "word": "outdrew",
-          "transcription": "aʊtˈdru"
-        },
-        "pastParticiple": {
-          "word": "outdrawn",
-          "transcription": "aʊtˈdrɔn"
-        },
-        "name": [
-          "outdraw",
-          "aʊtˈdrɔ"
-        ],
-        "translations": {
-          "ua": "добиться большей популярности",
-          "ru": "добиться большей популярности, превзойти конкурентов"
         },
         "image": {
           "url": ""
@@ -8371,33 +8290,6 @@ export const irregularVerbs =
           "url": ""
         },
         "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "abide",
-          "transcription": "əˈbaɪd"
-        },
-        "pastSimple": {
-          "word": "abode / abided",
-          "transcription": "əˈboʊd / əˈbaɪdɪd"
-        },
-        "pastParticiple": {
-          "word": "abode / abided",
-          "transcription": "əˈboʊd / əˈbaɪdɪd"
-        },
-        "name": [
-          "abide",
-          "əˈbaɪd"
-        ],
-        "translations": {
-          "ua": "залишатися, дотримуватися",
-          "ru": "пребывать, соблюдать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
       },
       {
         "group": "v1 = v2",

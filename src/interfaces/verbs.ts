@@ -1,17 +1,13 @@
+interface  IFormVerb  {
+  word: string;
+  transcription: string;
+}
+
 interface IIrregularVerbs {
   group: string;
-  infinitive: {
-    word: string;
-    transcription: string;
-  };
-  pastSimple: {
-    word: string;
-    transcription: string;
-  };
-  pastParticiple: {
-    word: string;
-    transcription: string;
-  };
+  infinitive: IFormVerb;
+  pastSimple: IFormVerb;
+  pastParticiple: IFormVerb;
   translations: {
     ua: string;
     ru: string;

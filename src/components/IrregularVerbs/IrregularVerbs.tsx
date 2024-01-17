@@ -15,25 +15,17 @@ function a11yProps(index: number) {
   };
 }
 
-const tableTypes = ["high", "average", "rare"];
-
 const IrregularVerbs = () => {
+  const tableTypes = ["all", "high", "average", "rare"];
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
 
-
-
-  const rows1 = irregularVerbs.elements.filter(
-    (el) => el.frequencyOfUse === "high"
-  );
-  const rows2 = irregularVerbs.elements.filter(
-    (el) => el.frequencyOfUse === "average"
-  );
-  const rows3 = irregularVerbs.elements.filter(
-    (el) => el.frequencyOfUse === "rare"
+  const rows = irregularVerbs.elements.filter(
+    (el) =>
+      el.frequencyOfUse === tableTypes[value] || tableTypes[value] === "all"
   );
 
   return (
@@ -47,20 +39,13 @@ const IrregularVerbs = () => {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="high uses" {...a11yProps(0)} />
-          <Tab label="average uses" {...a11yProps(1)} />
-          <Tab label="rare uses" {...a11yProps(2)} />
+          <Tab label="all" {...a11yProps(0)} />
+          <Tab label="high uses" {...a11yProps(1)} />
+          <Tab label="average uses" {...a11yProps(2)} />
+          <Tab label="rare uses" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0}>
-        <IrregularTable verbs={rows1} />
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        <IrregularTable verbs={rows2} />
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        <IrregularTable verbs={rows3} />
-      </TabPanel>
+      <IrregularTable verbs={rows} />
     </>
   );
 };

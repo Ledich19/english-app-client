@@ -9,7 +9,7 @@ const Grammar = () => {
     <Box>
       <Card>
         <Typography variant="h3"></Typography>
-        <Link key={"irregular-verbs"} href={"grammar/irregular-verbs"}>
+        <Link key={"irregular-verbs"} href={`grammar/${"irregular-verbs"}`}>
           <Typography>irregular-verbs</Typography>
         </Link>
       </Card>

@@ -1,4 +1,3 @@
-"use client";
 import { TableSortLabel } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import TableCell, { tableCellClasses } from "@mui/material/TableCell";
@@ -8,10 +7,12 @@ export const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: "#232323",
     color: theme.palette.common.white,
+    padding: theme.spacing(1)
   },
   [`&.${tableCellClasses.body}`]: {
     fontSize: 16,
     fontWeight: "bold",
+    padding: theme.spacing(1)
   },
   borderBottom: "1px solid #998585",
   span: {

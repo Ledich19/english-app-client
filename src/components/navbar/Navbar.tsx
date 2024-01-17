@@ -127,7 +127,7 @@ const Navbar = () => {
           ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {navigationData.map((link) => (
-              <Link key={link.id} href={link.path}>
+              <Link key={link.id} href={`/${link.path}`}>
                 <Button
                   key={link.id}
                   onClick={handleCloseNavMenu}
