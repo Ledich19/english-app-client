@@ -5,7 +5,13 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import { FormControlLabel, Switch, TableCell, TextField } from "@mui/material";;
+import {
+  Collapse,
+  FormControlLabel,
+  Switch,
+  TableCell,
+  TextField,
+} from "@mui/material";
 import TableItem from "./TableItem";
 
 interface IProps {
@@ -22,7 +28,9 @@ const IrregularTable = ({ verbs }: IProps) => {
 
   const rows = verbs.filter((el) => el.infinitive.word.includes(search));
 
-  const filteredRows = verbs.filter((el) => el.infinitive.word.includes(search));
+  const filteredRows = verbs.filter((el) =>
+    el.infinitive.word.includes(search)
+  );
   const workRows: IIrregularVerbs[][] = isGroups
     ? Object.values(
         filteredRows.reduce((acc: GroupedObject, obj) => {
@@ -80,13 +88,15 @@ const IrregularTable = ({ verbs }: IProps) => {
         </Table>
 
         {workRows.map((rows, i) => (
-        <TableItem
-          key={i}
-          title={isGroups ? rows[0].group : undefined}
-          data={rows}
-          isTranscription={isTranscription}
-        />
-      ))}
+            <TableItem
+              key={i}
+              title={isGroups ? rows[0].group : undefined}
+              isOpen={!isGroups}
+              data={rows}
+              isTranscription={isTranscription}
+            />
+          
+        ))}
         {/* </Table> */}
       </TableContainer>
     </>

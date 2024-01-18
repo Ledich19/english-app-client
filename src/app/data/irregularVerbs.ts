@@ -3,6 +3,29 @@ export const irregularVerbs =
     title: "irregular verbs",
     elements: [
       {
+        "group": "(суплетивные формы *образованные от разных корней)",
+        "infinitive": {
+          "word": "undergo",
+          "transcription": "ʌndərˈɡoʊ"
+        },
+        "pastSimple": {
+          "word": "underwent",
+          "transcription": "ʌndərˈwɛnt"
+        },
+        "pastParticiple": {
+          "word": "undergone",
+          "transcription": "ʌndərˈɡɒn"
+        },
+        "translations": {
+          "ua": "випробовувати, переносити",
+          "ru": "испытывать, переносить"
+        },
+        "image": {
+          "url": ""
+        },
+        "frequencyOfUse": "high"
+      },
+      {
         "group": "v2 = v3",
         "infinitive": {
           "word": "abide",
@@ -16,10 +39,6 @@ export const irregularVerbs =
           "word": "abode / abided",
           "transcription": "əˈboʊd / əˈbaɪdɪd"
         },
-        "name": [
-          "abide",
-          "əˈbaɪd"
-        ],
         "translations": {
           "ua": "триматися",
           "ru": "терпеть, соблюдать"
@@ -30,7 +49,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "arise",
           "transcription": "əˈraɪz"
@@ -43,10 +62,6 @@ export const irregularVerbs =
           "word": "arisen",
           "transcription": "ˈærɪzn"
         },
-        "name": [
-          "arise",
-          "əˈraɪz"
-        ],
         "translations": {
           "ua": "возникати, підніматися",
           "ru": "возникать, подниматься"
@@ -57,7 +72,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "awake",
           "transcription": "əˈweɪk"
@@ -70,10 +85,6 @@ export const irregularVerbs =
           "word": "awaked / awoken",
           "transcription": "əˈweɪkt / əˈwoʊkən"
         },
-        "name": [
-          "awake",
-          "əˈweɪk"
-        ],
         "translations": {
           "ua": "будити, викликати, прокидатися, розуміти",
           "ru": "будить, вызывать, просыпаться, понимать"
@@ -84,7 +95,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "backslide",
           "transcription": "ˈbækslaɪd"
@@ -97,10 +108,6 @@ export const irregularVerbs =
           "word": "backslidden / backslid",
           "transcription": "ˈbækslɪdn̩ / ˈbækslɪd"
         },
-        "name": [
-          "backslide",
-          "ˈbækslaɪd"
-        ],
         "translations": {
           "ua": "відступати від віри, знову віддаватися пороку",
           "ru": "отступаться от веры, снова предаваться пороку"
@@ -111,7 +118,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(суплетивные формы *образованные от разных корней)",
         "infinitive": {
           "word": "be",
           "transcription": "bi"
@@ -124,10 +131,6 @@ export const irregularVerbs =
           "word": "been",
           "transcription": "bɪn"
         },
-        "name": [
-          "be",
-          "bi"
-        ],
         "translations": {
           "ua": "бути, бувати",
           "ru": "быть, являться"
@@ -138,7 +141,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "bear",
           "transcription": "ber"
@@ -151,10 +154,6 @@ export const irregularVerbs =
           "word": "borne / born",
           "transcription": "bɔrn / bɔrn"
         },
-        "name": [
-          "bear",
-          "ber"
-        ],
         "translations": {
           "ua": "нести, виносити, держати, годувати почуття",
           "ru": "нести, выносить, держать, питать чувство"
@@ -165,7 +164,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "beat",
           "transcription": "bit"
@@ -178,10 +177,6 @@ export const irregularVerbs =
           "word": "beaten / beat",
           "transcription": "ˈbiːtən / bit"
         },
-        "name": [
-          "beat",
-          "bit"
-        ],
         "translations": {
           "ua": "бити, перемагати",
           "ru": "бить, побеждать"
@@ -192,7 +187,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "v1 = v3",
         "infinitive": {
           "word": "become",
           "transcription": "bɪˈkʌm"
@@ -205,10 +200,6 @@ export const irregularVerbs =
           "word": "become",
           "transcription": "bɪˈkʌm"
         },
-        "name": [
-          "become",
-          "bɪˈkʌm"
-        ],
         "translations": {
           "ua": "становитися, стати",
           "ru": "становиться, делаться"
@@ -219,7 +210,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "befall",
           "transcription": "bɪˈfɔl"
@@ -232,10 +223,6 @@ export const irregularVerbs =
           "word": "befallen",
           "transcription": "bɪˈfælən"
         },
-        "name": [
-          "befall",
-          "bɪˈfɔl"
-        ],
         "translations": {
           "ua": "статися, призастигати",
           "ru": "случаться, приключаться"
@@ -246,7 +233,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "begin",
           "transcription": "bɪˈɡɪn"
@@ -259,10 +246,6 @@ export const irregularVerbs =
           "word": "begun",
           "transcription": "bɪˈɡʌn"
         },
-        "name": [
-          "begin",
-          "bɪˈɡɪn"
-        ],
         "translations": {
           "ua": "починати, розпочинати",
           "ru": "начинать"
@@ -286,10 +269,6 @@ export const irregularVerbs =
           "word": "beheld",
           "transcription": "bɪˈhɛld"
         },
-        "name": [
-          "behold",
-          "bɪˈhoʊld"
-        ],
         "translations": {
           "ua": "дивитися, помічати, схвалювати, бачити",
           "ru": "увидеть, заметить, созерцать, наблюдать"
@@ -313,10 +292,6 @@ export const irregularVerbs =
           "word": "bent",
           "transcription": "bɛnt"
         },
-        "name": [
-          "bend",
-          "bɛnd"
-        ],
         "translations": {
           "ua": "гнути, схиляти",
           "ru": "гнуть, сгибать"
@@ -340,10 +315,6 @@ export const irregularVerbs =
           "word": "bereft / bereaved",
           "transcription": "bɪˈrɛft / bɪˈrivd"
         },
-        "name": [
-          "bereave",
-          "bɪˈriv"
-        ],
         "translations": {
           "ua": "лишати, відбирати",
           "ru": "лишать, отнимать, отбирать"
@@ -367,10 +338,6 @@ export const irregularVerbs =
           "word": "besought / beseeched",
           "transcription": "bɪˈsɔt / bɪˈsitʃt"
         },
-        "name": [
-          "beseech",
-          "bɪˈsitʃ"
-        ],
         "translations": {
           "ua": "уміляти, благати",
           "ru": "умолять, просить, упрашивать"
@@ -381,7 +348,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "beset",
           "transcription": "bɪˈsɛt"
@@ -394,10 +361,6 @@ export const irregularVerbs =
           "word": "beset",
           "transcription": "bɪˈsɛt"
         },
-        "name": [
-          "beset",
-          "bɪˈsɛt"
-        ],
         "translations": {
           "ua": "обступати, оточувати",
           "ru": "окружать, осаждать, преграждать"
@@ -408,7 +371,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "bet",
           "transcription": "bɛt / ˈbɛtɪd"
@@ -421,10 +384,6 @@ export const irregularVerbs =
           "word": "bet / betted",
           "transcription": "bɛt / ˈbɛtɪd"
         },
-        "name": [
-          "bet",
-          "bɛt / ˈbɛtɪd"
-        ],
         "translations": {
           "ua": "закладати, бити ставку",
           "ru": "держать пари, быть уверенным"
@@ -435,7 +394,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "bid",
           "transcription": "bɪd"
@@ -448,10 +407,6 @@ export const irregularVerbs =
           "word": "bid",
           "transcription": "bɪd"
         },
-        "name": [
-          "bid",
-          "bɪd"
-        ],
         "translations": {
           "ua": "пропонувати ціну, веліти, просити",
           "ru": "предлагать цену, велеть, просить"
@@ -462,7 +417,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "without group",
         "infinitive": {
           "word": "bide",
           "transcription": "baɪd / biːd"
@@ -475,10 +430,6 @@ export const irregularVerbs =
           "word": "bided",
           "transcription": "baɪdɪd"
         },
-        "name": [
-          "bide",
-          "baɪd / biːd"
-        ],
         "translations": {
           "ua": "чекати, вижидати, залишатися",
           "ru": "ждать, выжидать, оставаться, находиться"
@@ -502,10 +453,6 @@ export const irregularVerbs =
           "word": "bound",
           "transcription": "baʊnd"
         },
-        "name": [
-          "bind",
-          "baɪnd"
-        ],
         "translations": {
           "ua": "зв'язувати",
           "ru": "связывать"
@@ -516,7 +463,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "bite",
           "transcription": "baɪt"
@@ -529,10 +476,6 @@ export const irregularVerbs =
           "word": "bitten",
           "transcription": "ˈbɪtən"
         },
-        "name": [
-          "bite",
-          "baɪt"
-        ],
         "translations": {
           "ua": "кусати, кусати, жалити",
           "ru": "кусать, клевать, жалить"
@@ -556,10 +499,6 @@ export const irregularVerbs =
           "word": "bled",
           "transcription": "blɛd"
         },
-        "name": [
-          "bleed",
-          "bliːd"
-        ],
         "translations": {
           "ua": "кровоточити, течі з кровом",
           "ru": "кровоточить, истекать кровью"
@@ -583,10 +522,6 @@ export const irregularVerbs =
           "word": "blessed / blest",
           "transcription": "blɛst / blɛsɪd"
         },
-        "name": [
-          "bless",
-          "blɛs"
-        ],
         "translations": {
           "ua": "благословляти, дарувати",
           "ru": "благословлять, одаривать, перекрестить"
@@ -597,7 +532,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "blow",
           "transcription": "bloʊ"
@@ -610,10 +545,6 @@ export const irregularVerbs =
           "word": "blown",
           "transcription": "bloʊn"
         },
-        "name": [
-          "blow",
-          "bloʊ"
-        ],
         "translations": {
           "ua": "дути, віяти, задувати, вибухати",
           "ru": "дуть, веять, задувать, выдувать, взрывать"
@@ -624,7 +555,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "break",
           "transcription": "breɪk"
@@ -637,10 +568,6 @@ export const irregularVerbs =
           "word": "broken",
           "transcription": "ˈbroʊkən"
         },
-        "name": [
-          "break",
-          "breɪk"
-        ],
         "translations": {
           "ua": "ламати, розривати, порушувати",
           "ru": "ломать, прерывать, разбивать"
@@ -664,10 +591,6 @@ export const irregularVerbs =
           "word": "bred",
           "transcription": "brɛd"
         },
-        "name": [
-          "breed",
-          "briːd"
-        ],
         "translations": {
           "ua": "виводити, вскормлювати, розмножуватися, породжувати",
           "ru": "выводить, вскармливать, размножаться, порождать"
@@ -691,10 +614,6 @@ export const irregularVerbs =
           "word": "brought",
           "transcription": "brɔt"
         },
-        "name": [
-          "bring",
-          "brɪŋ"
-        ],
         "translations": {
           "ua": "приносити, приводити, доводити",
           "ru": "приносить, приводить, доводить"
@@ -705,7 +624,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "broadcast",
           "transcription": "ˈbrɔːdkæst"
@@ -718,10 +637,6 @@ export const irregularVerbs =
           "word": "broadcast / broadcasted",
           "transcription": "ˈbrɔːdkæst / ˈbrɔːdkæstɪd"
         },
-        "name": [
-          "broadcast",
-          "ˈbrɔːdkæst"
-        ],
         "translations": {
           "ua": "вещати, поширювати, передавати по радіо",
           "ru": "вещать, распространять, передавать по радио"
@@ -745,10 +660,6 @@ export const irregularVerbs =
           "word": "built",
           "transcription": "bɪlt"
         },
-        "name": [
-          "build",
-          "bɪld"
-        ],
         "translations": {
           "ua": "будувати, споруджувати",
           "ru": "строить, сооружать"
@@ -772,10 +683,6 @@ export const irregularVerbs =
           "word": "burned / burnt",
           "transcription": "bɜrnd / bɜrnt"
         },
-        "name": [
-          "burn",
-          "bɜrn"
-        ],
         "translations": {
           "ua": "горіти, спалювати",
           "ru": "гореть, сжигать"
@@ -786,7 +693,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "burst",
           "transcription": "bɜrst"
@@ -799,10 +706,6 @@ export const irregularVerbs =
           "word": "burst",
           "transcription": "bɜrst"
         },
-        "name": [
-          "burst",
-          "bɜrst"
-        ],
         "translations": {
           "ua": "лопатися, вибухати, бути переповненим, з'являтися",
           "ru": "лопаться, взрываться, быть переполненным, появиться"
@@ -813,7 +716,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "bust",
           "transcription": "bʌst"
@@ -826,10 +729,6 @@ export const irregularVerbs =
           "word": "busted / bust",
           "transcription": "bʌstɪd / bʌst"
         },
-        "name": [
-          "bust",
-          "bʌst"
-        ],
         "translations": {
           "ua": "ламати, руйнувати, розорюватися, бити",
           "ru": "сломать, разрушать, разориться, бить"
@@ -853,10 +752,6 @@ export const irregularVerbs =
           "word": "bought",
           "transcription": "bɔt"
         },
-        "name": [
-          "buy",
-          "baɪ"
-        ],
         "translations": {
           "ua": "купувати",
           "ru": "покупать"
@@ -867,7 +762,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "cast",
           "transcription": "kæst"
@@ -880,10 +775,6 @@ export const irregularVerbs =
           "word": "cast",
           "transcription": "kæst"
         },
-        "name": [
-          "cast",
-          "kæst"
-        ],
         "translations": {
           "ua": "кидати, відкидати, звільнити, відливати (метал)",
           "ru": "бросать, отбрасывать, уволить, отливать (метал)"
@@ -907,10 +798,6 @@ export const irregularVerbs =
           "word": "caught",
           "transcription": "kɔt"
         },
-        "name": [
-          "catch",
-          "kætʃ"
-        ],
         "translations": {
           "ua": "ловити, хапати, доганяти",
           "ru": "поймать, ловить, догнать"
@@ -921,7 +808,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "v2 = v3",
         "infinitive": {
           "word": "chide",
           "transcription": "ʧaɪd"
@@ -934,10 +821,6 @@ export const irregularVerbs =
           "word": "chided / chid / chidden",
           "transcription": "ʧaɪdɪd / ʧɪd / ˈʧɪdən"
         },
-        "name": [
-          "chide",
-          "ʧaɪd"
-        ],
         "translations": {
           "ua": "розпекати, ругати, бранити, ревети",
           "ru": "распекать, ругать, бранить, реветь"
@@ -948,7 +831,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "choose",
           "transcription": "ʧuːz"
@@ -961,10 +844,6 @@ export const irregularVerbs =
           "word": "chosen",
           "transcription": "ˈʧoʊzən"
         },
-        "name": [
-          "choose",
-          "ʧuːz"
-        ],
         "translations": {
           "ua": "вибирати",
           "ru": "выбирать"
@@ -975,7 +854,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "v2 = v3",
         "infinitive": {
           "word": "cleave",
           "transcription": "kliːv"
@@ -988,10 +867,6 @@ export const irregularVerbs =
           "word": "cleft / cloven",
           "transcription": "klɛft / ˈkloʊvən"
         },
-        "name": [
-          "cleave",
-          "kliːv"
-        ],
         "translations": {
           "ua": "розкалити, розсікати",
           "ru": "раскалывать, рассекать"
@@ -1015,10 +890,6 @@ export const irregularVerbs =
           "word": "clung",
           "transcription": "klʌŋ"
         },
-        "name": [
-          "cling",
-          "klɪŋ"
-        ],
         "translations": {
           "ua": "триматися, держатися, липнути",
           "ru": "цепляться, держаться, липнуть"
@@ -1042,10 +913,6 @@ export const irregularVerbs =
           "word": "clothed / clad",
           "transcription": "kloʊðt / klæd"
         },
-        "name": [
-          "clothe",
-          "kloʊð"
-        ],
         "translations": {
           "ua": "одягати, одягати, виражати, одарювати",
           "ru": "одеть, одевать, выражать, одарять"
@@ -1056,7 +923,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "v1 = v3",
         "infinitive": {
           "word": "come",
           "transcription": "kʌm"
@@ -1069,10 +936,6 @@ export const irregularVerbs =
           "word": "come",
           "transcription": "kʌm"
         },
-        "name": [
-          "come",
-          "kʌm"
-        ],
         "translations": {
           "ua": "приходити",
           "ru": "приходить"
@@ -1083,7 +946,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "cost",
           "transcription": "kɔst"
@@ -1096,10 +959,6 @@ export const irregularVerbs =
           "word": "cost",
           "transcription": "kɔst"
         },
-        "name": [
-          "cost",
-          "kɔst"
-        ],
         "translations": {
           "ua": "оцінювати, коштувати",
           "ru": "оценивать, стоить"
@@ -1123,10 +982,6 @@ export const irregularVerbs =
           "word": "crept",
           "transcription": "krɛpt"
         },
-        "name": [
-          "creep",
-          "kriːp"
-        ],
         "translations": {
           "ua": "ползати, крастися, охоплювати, наводити жах",
           "ru": "ползать, красться, охватывать, наводить ужас"
@@ -1150,10 +1005,6 @@ export const irregularVerbs =
           "word": "crossbred",
           "transcription": "krɔsbrɛd"
         },
-        "name": [
-          "crossbreed",
-          "krɔsbrid"
-        ],
         "translations": {
           "ua": "схрещувати",
           "ru": "скрещивать"
@@ -1164,7 +1015,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "cut",
           "transcription": "kʌt"
@@ -1177,10 +1028,6 @@ export const irregularVerbs =
           "word": "cut",
           "transcription": "kʌt"
         },
-        "name": [
-          "cut",
-          "kʌt"
-        ],
         "translations": {
           "ua": "різати, обрізати",
           "ru": "резать, обрезать"
@@ -1191,7 +1038,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "without group",
         "infinitive": {
           "word": "dare",
           "transcription": "dɛr"
@@ -1204,10 +1051,6 @@ export const irregularVerbs =
           "word": "dared",
           "transcription": "dɛrd"
         },
-        "name": [
-          "dare",
-          "dɛr"
-        ],
         "translations": {
           "ua": "сміти, кидати виклик, ризикувати",
           "ru": "сметь, бросать вызов, рисковать"
@@ -1231,10 +1074,6 @@ export const irregularVerbs =
           "word": "daydreamed / daydreamt",
           "transcription": "deɪdriːmd / deɪdriːmt"
         },
-        "name": [
-          "daydream",
-          "deɪdriːm"
-        ],
         "translations": {
           "ua": "мріяти наяву, мріяти, фантазувати",
           "ru": "грезить наяву, мечтать, фантазировать"
@@ -1258,10 +1097,6 @@ export const irregularVerbs =
           "word": "dealt",
           "transcription": "dɛlt"
         },
-        "name": [
-          "deal",
-          "diːl"
-        ],
         "translations": {
           "ua": "мати справу, торгувати, розглядати питання",
           "ru": "иметь дело, торговать, рассматривать вопрос"
@@ -1285,10 +1120,6 @@ export const irregularVerbs =
           "word": "dug",
           "transcription": "dʌɡ"
         },
-        "name": [
-          "dig",
-          "dɪɡ"
-        ],
         "translations": {
           "ua": "копати, рити, шукати",
           "ru": "копать, рыть, искать"
@@ -1299,7 +1130,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "disprove",
           "transcription": "dɪsˈpruːv"
@@ -1312,10 +1143,6 @@ export const irregularVerbs =
           "word": "disproved / disproven",
           "transcription": "dɪsˈpruːvd / dɪsˈproʊvən"
         },
-        "name": [
-          "disprove",
-          "dɪsˈpruːv"
-        ],
         "translations": {
           "ua": "спростовувати, доводити неправдивість",
           "ru": "опровергать, доказывать ложность"
@@ -1326,7 +1153,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "without group",
         "infinitive": {
           "word": "dive",
           "transcription": "daɪv"
@@ -1339,10 +1166,6 @@ export const irregularVerbs =
           "word": "dived",
           "transcription": "daɪvd"
         },
-        "name": [
-          "dive",
-          "daɪv"
-        ],
         "translations": {
           "ua": "пірнати, стрибати вниз, пірнати",
           "ru": "нырять, прыгать вниз, окунаться"
@@ -1353,7 +1176,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(суплетивные формы *образованные от разных корней)",
         "infinitive": {
           "word": "do",
           "transcription": "du"
@@ -1366,10 +1189,6 @@ export const irregularVerbs =
           "word": "done",
           "transcription": "dʌn"
         },
-        "name": [
-          "do",
-          "du"
-        ],
         "translations": {
           "ua": "робити",
           "ru": "делать"
@@ -1380,7 +1199,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "draw",
           "transcription": "drɔ"
@@ -1393,10 +1212,6 @@ export const irregularVerbs =
           "word": "drawn",
           "transcription": "drɔn"
         },
-        "name": [
-          "draw",
-          "drɔ"
-        ],
         "translations": {
           "ua": "малювати, тягнути, набирати, знімати",
           "ru": "чертить, рисовать, представлять; тащить, тянуть"
@@ -1420,10 +1235,6 @@ export const irregularVerbs =
           "word": "dreamt / dreamed",
           "transcription": "drɛmt / drimd"
         },
-        "name": [
-          "dream",
-          "driːm"
-        ],
         "translations": {
           "ua": "бачити сни, мріяти",
           "ru": "видеть сны, мечтать"
@@ -1434,7 +1245,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "drink",
           "transcription": "drɪŋk"
@@ -1447,10 +1258,6 @@ export const irregularVerbs =
           "word": "drunk / drank",
           "transcription": "drʌŋk / dræŋk"
         },
-        "name": [
-          "drink",
-          "drɪŋk"
-        ],
         "translations": {
           "ua": "пити",
           "ru": "пить"
@@ -1461,7 +1268,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "drive",
           "transcription": "draɪv"
@@ -1474,10 +1281,6 @@ export const irregularVerbs =
           "word": "driven",
           "transcription": "ˈdrɪvən"
         },
-        "name": [
-          "drive",
-          "draɪv"
-        ],
         "translations": {
           "ua": "водити (машина), керувати, їздити",
           "ru": "водить (машину), управлять, ездить"
@@ -1501,10 +1304,6 @@ export const irregularVerbs =
           "word": "dwelt / dwelled",
           "transcription": "dwɛlt / dwɛld"
         },
-        "name": [
-          "dwell",
-          "dwɛl"
-        ],
         "translations": {
           "ua": "жити, обитати, пробувати, затримуватися",
           "ru": "жить, обитать, пребывать, останавливаться"
@@ -1515,7 +1314,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "eat",
           "transcription": "it"
@@ -1528,10 +1327,6 @@ export const irregularVerbs =
           "word": "eaten",
           "transcription": "ˈiːtən"
         },
-        "name": [
-          "eat",
-          "it"
-        ],
         "translations": {
           "ua": "їсти, приймати їжу, куштувати",
           "ru": "есть, принимать пищу, кушать"
@@ -1542,7 +1337,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "fall",
           "transcription": "fɔːl"
@@ -1555,10 +1350,6 @@ export const irregularVerbs =
           "word": "fallen",
           "transcription": "ˈfɔːlən"
         },
-        "name": [
-          "fall",
-          "fɔːl"
-        ],
         "translations": {
           "ua": "падати, опадати, опускатися",
           "ru": "падать, опадать, опускаться"
@@ -1582,10 +1373,6 @@ export const irregularVerbs =
           "word": "fed",
           "transcription": "fɛd"
         },
-        "name": [
-          "feed",
-          "fiːd"
-        ],
         "translations": {
           "ua": "годувати",
           "ru": "кормить"
@@ -1609,10 +1396,6 @@ export const irregularVerbs =
           "word": "felt",
           "transcription": "fɛlt"
         },
-        "name": [
-          "feel",
-          "fiːl"
-        ],
         "translations": {
           "ua": "відчувати",
           "ru": "чувствовать"
@@ -1636,10 +1419,6 @@ export const irregularVerbs =
           "word": "fought",
           "transcription": "fɔt"
         },
-        "name": [
-          "fight",
-          "faɪt"
-        ],
         "translations": {
           "ua": "боротися, сражатися",
           "ru": "бороться, сражаться"
@@ -1663,10 +1442,6 @@ export const irregularVerbs =
           "word": "found",
           "transcription": "faʊnd"
         },
-        "name": [
-          "find",
-          "faɪnd"
-        ],
         "translations": {
           "ua": "знаходити, виявляти",
           "ru": "находить, обнаруживать"
@@ -1677,7 +1452,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "fit",
           "transcription": "fɪt"
@@ -1690,10 +1465,6 @@ export const irregularVerbs =
           "word": "fitted / fit",
           "transcription": "ˈfɪtɪd / fɪt"
         },
-        "name": [
-          "fit",
-          "fɪt"
-        ],
         "translations": {
           "ua": "підганяти, прилагоджувати, влаштовувати",
           "ru": "подгонять, прилаживать, приспосабливать, оснащать"
@@ -1717,10 +1488,6 @@ export const irregularVerbs =
           "word": "fled",
           "transcription": "flɛd"
         },
-        "name": [
-          "flee",
-          "fliː"
-        ],
         "translations": {
           "ua": "бігти, втікати",
           "ru": "бежать, спасаться бегством"
@@ -1744,10 +1511,6 @@ export const irregularVerbs =
           "word": "flung",
           "transcription": "flʌŋ"
         },
-        "name": [
-          "fling",
-          "flɪŋ"
-        ],
         "translations": {
           "ua": "кидати, кидати",
           "ru": "кидать, бросать"
@@ -1758,7 +1521,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "fly",
           "transcription": "flaɪ"
@@ -1771,10 +1534,6 @@ export const irregularVerbs =
           "word": "flown",
           "transcription": "fləʊn"
         },
-        "name": [
-          "fly",
-          "flaɪ"
-        ],
         "translations": {
           "ua": "летіти, пролітати",
           "ru": "летать, пролетать"
@@ -1785,7 +1544,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "forbear",
           "transcription": "fɔːrˈbɛə"
@@ -1798,10 +1557,6 @@ export const irregularVerbs =
           "word": "forborne",
           "transcription": "fɔːrˈbɔrn"
         },
-        "name": [
-          "forbear",
-          "fɔːrˈbɛə"
-        ],
         "translations": {
           "ua": "сдержуватися, утримуватися, бути стриманим",
           "ru": "сдерживаться, воздерживаться, быть выдержанным"
@@ -1812,7 +1567,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "forbid",
           "transcription": "fərˈbɪd"
@@ -1825,10 +1580,6 @@ export const irregularVerbs =
           "word": "forbidden",
           "transcription": "fərˈbɪdən"
         },
-        "name": [
-          "forbid",
-          "fərˈbɪd"
-        ],
         "translations": {
           "ua": "забороняти",
           "ru": "запрещать"
@@ -1839,7 +1590,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "forecast",
           "transcription": "ˈfɔːrˌkæst"
@@ -1852,10 +1603,6 @@ export const irregularVerbs =
           "word": "forecast",
           "transcription": "ˈfɔːrˌkæst"
         },
-        "name": [
-          "forecast",
-          "ˈfɔːrˌkæst"
-        ],
         "translations": {
           "ua": "прогнозувати, передбачати",
           "ru": "прогнозировать, предсказывать"
@@ -1866,7 +1613,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "without group",
         "infinitive": {
           "word": "forego",
           "transcription": "fɔːrˈɡoʊ"
@@ -1879,10 +1626,6 @@ export const irregularVerbs =
           "word": "foregone",
           "transcription": "fɔːrˈɡɒn"
         },
-        "name": [
-          "forego",
-          "fɔːrˈɡoʊ"
-        ],
         "translations": {
           "ua": "попереджати, йти вперед",
           "ru": "предшествовать, идти впереди"
@@ -1893,7 +1636,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "foresee",
           "transcription": "fɔːrˈsi"
@@ -1906,10 +1649,6 @@ export const irregularVerbs =
           "word": "foreseen",
           "transcription": "fɔːrˈsiːn"
         },
-        "name": [
-          "foresee",
-          "fɔːrˈsi"
-        ],
         "translations": {
           "ua": "передбачати, передчувати",
           "ru": "предвидеть, предугадывать"
@@ -1933,10 +1672,6 @@ export const irregularVerbs =
           "word": "foretold",
           "transcription": "fɔːrˈtoʊld"
         },
-        "name": [
-          "foretell",
-          "fɔːrˈtɛl"
-        ],
         "translations": {
           "ua": "прогнозувати, передбачати",
           "ru": "предсказывать, прогнозировать"
@@ -1947,7 +1682,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "forget",
           "transcription": "fərˈɡɛt"
@@ -1960,10 +1695,6 @@ export const irregularVerbs =
           "word": "forgotten",
           "transcription": "fərˈɡɒtən"
         },
-        "name": [
-          "forget",
-          "fərˈɡɛt"
-        ],
         "translations": {
           "ua": "забувати",
           "ru": "забывать"
@@ -1974,7 +1705,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "forgive",
           "transcription": "fərˈɡɪv"
@@ -1987,10 +1718,6 @@ export const irregularVerbs =
           "word": "forgiven",
           "transcription": "fərˈɡɪvən"
         },
-        "name": [
-          "forgive",
-          "fərˈɡɪv"
-        ],
         "translations": {
           "ua": "прощати, забувати (борг)",
           "ru": "прощать, забыть (долг)"
@@ -2001,7 +1728,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "without group",
         "infinitive": {
           "word": "forgo",
           "transcription": "fɔrˈɡoʊ"
@@ -2014,10 +1741,6 @@ export const irregularVerbs =
           "word": "forgone",
           "transcription": "fɔrˈɡɒn"
         },
-        "name": [
-          "forgo",
-          "fɔrˈɡoʊ"
-        ],
         "translations": {
           "ua": "відмовлятися, утримуватися",
           "ru": "отказываться, воздерживаться"
@@ -2028,7 +1751,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "forsake",
           "transcription": "fərˈseɪk"
@@ -2041,10 +1764,6 @@ export const irregularVerbs =
           "word": "forsaken",
           "transcription": "fərˈseɪkən"
         },
-        "name": [
-          "forsake",
-          "fərˈseɪk"
-        ],
         "translations": {
           "ua": "кидати, залишати, відмовлятися",
           "ru": "бросать, оставлять, отказываться"
@@ -2055,7 +1774,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "forswear",
           "transcription": "fɔrˈswɛər"
@@ -2068,10 +1787,6 @@ export const irregularVerbs =
           "word": "forsworn",
           "transcription": "fɔrˈswɔrn"
         },
-        "name": [
-          "forswear",
-          "fɔrˈswɛər"
-        ],
         "translations": {
           "ua": "відмовлятися, відрікатися",
           "ru": "отказываться, отрекаться"
@@ -2082,7 +1797,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "freeze",
           "transcription": "friːz"
@@ -2095,10 +1810,6 @@ export const irregularVerbs =
           "word": "frozen",
           "transcription": "ˈfroʊzən"
         },
-        "name": [
-          "freeze",
-          "friːz"
-        ],
         "translations": {
           "ua": "замерзати, заморожувати",
           "ru": "замерзать, замораживать"
@@ -2109,7 +1820,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "frostbite",
           "transcription": "ˈfrɒstbaɪt"
@@ -2122,10 +1833,6 @@ export const irregularVerbs =
           "word": "frostbitten",
           "transcription": "ˈfrɒstbɪtn̩"
         },
-        "name": [
-          "frostbite",
-          "ˈfrɒstbaɪt"
-        ],
         "translations": {
           "ua": "обморожувати, отморожувати",
           "ru": "обмораживать, отмораживать"
@@ -2136,7 +1843,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "get",
           "transcription": "ɡɛt"
@@ -2149,10 +1856,6 @@ export const irregularVerbs =
           "word": "gotten / got",
           "transcription": "ˈɡɒtən / ɡɒt"
         },
-        "name": [
-          "get",
-          "ɡɛt"
-        ],
         "translations": {
           "ua": "отримувати, стає, стається",
           "ru": "получать, становиться"
@@ -2176,10 +1879,6 @@ export const irregularVerbs =
           "word": "gilded / gilt",
           "transcription": "ˈɡɪldɪd / ɡɪlt"
         },
-        "name": [
-          "gild",
-          "ɡɪld"
-        ],
         "translations": {
           "ua": "золотити, покривати позолотою, прикрашати",
           "ru": "золотить, покрывать позолотой, украшать"
@@ -2190,7 +1889,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "give",
           "transcription": "ɡɪv"
@@ -2203,10 +1902,6 @@ export const irregularVerbs =
           "word": "given",
           "transcription": "ˈɡɪvən"
         },
-        "name": [
-          "give",
-          "ɡɪv"
-        ],
         "translations": {
           "ua": "давати",
           "ru": "давать"
@@ -2217,7 +1912,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(суплетивные формы *образованные от разных корней)",
         "infinitive": {
           "word": "go",
           "transcription": "ɡoʊ"
@@ -2230,10 +1925,6 @@ export const irregularVerbs =
           "word": "gone",
           "transcription": "ɡɒn"
         },
-        "name": [
-          "go",
-          "ɡoʊ"
-        ],
         "translations": {
           "ua": "йти, їхати",
           "ru": "идти, ехать"
@@ -2257,10 +1948,6 @@ export const irregularVerbs =
           "word": "ground",
           "transcription": "ɡraʊnd"
         },
-        "name": [
-          "grind",
-          "ɡraɪnd"
-        ],
         "translations": {
           "ua": "молоти, розтирати, шліфувати, точити",
           "ru": "молоть, растереть, шлифовать, точить"
@@ -2271,7 +1958,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "grow",
           "transcription": "ɡroʊ"
@@ -2284,10 +1971,6 @@ export const irregularVerbs =
           "word": "grown",
           "transcription": "ɡroʊn"
         },
-        "name": [
-          "grow",
-          "ɡroʊ"
-        ],
         "translations": {
           "ua": "рости, вирощувати",
           "ru": "расти, выращивать"
@@ -2311,10 +1994,6 @@ export const irregularVerbs =
           "word": "hand-fed",
           "transcription": "hænd fɛd"
         },
-        "name": [
-          "hand-feed",
-          "hænd fiːd"
-        ],
         "translations": {
           "ua": "подавати вручну",
           "ru": "подавать вручную"
@@ -2325,7 +2004,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "handwrite",
           "transcription": "ˈhændˌraɪt"
@@ -2338,10 +2017,6 @@ export const irregularVerbs =
           "word": "handwritten",
           "transcription": "ˈhændˌrɪtən"
         },
-        "name": [
-          "handwrite",
-          "ˈhændˌraɪt"
-        ],
         "translations": {
           "ua": "писати вручну",
           "ru": "писать вручную"
@@ -2365,10 +2040,6 @@ export const irregularVerbs =
           "word": "hung",
           "transcription": "hʌŋ"
         },
-        "name": [
-          "hang",
-          "hæŋ"
-        ],
         "translations": {
           "ua": "висіти, вішати",
           "ru": "висеть, вешать"
@@ -2392,10 +2063,6 @@ export const irregularVerbs =
           "word": "had",
           "transcription": "hæd"
         },
-        "name": [
-          "have",
-          "hæv"
-        ],
         "translations": {
           "ua": "мати, володіти",
           "ru": "иметь, обладать"
@@ -2419,10 +2086,6 @@ export const irregularVerbs =
           "word": "heard",
           "transcription": "hɜrd"
         },
-        "name": [
-          "hear",
-          "hɪr"
-        ],
         "translations": {
           "ua": "слухати, чути",
           "ru": "слышать, слушать"
@@ -2446,10 +2109,6 @@ export const irregularVerbs =
           "word": "heaved / hove",
           "transcription": "hiːvd / hoʊv"
         },
-        "name": [
-          "heave",
-          "hiːv"
-        ],
         "translations": {
           "ua": "піднімати, переміщати, вздиматися, напружуватися",
           "ru": "поднимать, перемещать, вздыматься, напрягаться"
@@ -2460,7 +2119,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "hew",
           "transcription": "hjuː"
@@ -2473,10 +2132,6 @@ export const irregularVerbs =
           "word": "hewn / hewed",
           "transcription": "hjuːn / hjuːd"
         },
-        "name": [
-          "hew",
-          "hjuː"
-        ],
         "translations": {
           "ua": "рубати, тесати, відрубувати, узгоджуватися",
           "ru": "рубить, тесать, отбивать, согласовываться"
@@ -2487,7 +2142,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "hide",
           "transcription": "haɪd"
@@ -2500,10 +2155,6 @@ export const irregularVerbs =
           "word": "hidden",
           "transcription": "ˈhɪdən"
         },
-        "name": [
-          "hide",
-          "haɪd"
-        ],
         "translations": {
           "ua": "приховувати, приховуватися",
           "ru": "прятать, прятаться"
@@ -2514,7 +2165,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "hit",
           "transcription": "hɪt"
@@ -2527,10 +2178,6 @@ export const irregularVerbs =
           "word": "hit",
           "transcription": "hɪt"
         },
-        "name": [
-          "hit",
-          "hɪt"
-        ],
         "translations": {
           "ua": "ударяти, поразити",
           "ru": "ударять, поражать"
@@ -2554,10 +2201,6 @@ export const irregularVerbs =
           "word": "held",
           "transcription": "hɛld"
         },
-        "name": [
-          "hold",
-          "hoʊld"
-        ],
         "translations": {
           "ua": "займати, утримувати, утримувати",
           "ru": "занимать, держать, удерживать"
@@ -2568,7 +2211,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "hurt",
           "transcription": "hɜrt"
@@ -2581,10 +2224,6 @@ export const irregularVerbs =
           "word": "hurt",
           "transcription": "hɜrt"
         },
-        "name": [
-          "hurt",
-          "hɜrt"
-        ],
         "translations": {
           "ua": "пошкодити, заподіяти біль, поранити",
           "ru": "повредить, причинять боль, ранить"
@@ -2608,10 +2247,6 @@ export const irregularVerbs =
           "word": "inbred",
           "transcription": "ɪnˈbrɛd"
         },
-        "name": [
-          "inbreed",
-          "ɪnˈbriːd"
-        ],
         "translations": {
           "ua": "взращувати, виховувати щось в комусь",
           "ru": "взращивать, воспитывать что-то в ком-то"
@@ -2635,10 +2270,6 @@ export const irregularVerbs =
           "word": "inlaid",
           "transcription": "ɪnˈleɪd"
         },
-        "name": [
-          "inlay",
-          "ɪnˈleɪ"
-        ],
         "translations": {
           "ua": "інкрустувати, робити вставку",
           "ru": "инкрустировать, делать вставку"
@@ -2649,7 +2280,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "input",
           "transcription": "ˈɪnpʊt"
@@ -2662,10 +2293,6 @@ export const irregularVerbs =
           "word": "input / inputted",
           "transcription": "ˈɪnpʊt / ˈɪnˌpʊtɪd"
         },
-        "name": [
-          "input",
-          "ˈɪnpʊt"
-        ],
         "translations": {
           "ua": "ввести, вводити, вкладати (гроші)",
           "ru": "ввести, вводить, вкладывать (деньги)"
@@ -2689,10 +2316,6 @@ export const irregularVerbs =
           "word": "interbred",
           "transcription": "ˌɪntərˈbrɛd"
         },
-        "name": [
-          "interbreed",
-          "ˌɪntərˈbriːd"
-        ],
         "translations": {
           "ua": "скрещивати, скрещиватися",
           "ru": "скрещивать, скрещиваться"
@@ -2703,7 +2326,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "interweave",
           "transcription": "ˌɪntərˈwiːv"
@@ -2716,10 +2339,6 @@ export const irregularVerbs =
           "word": "interwoven / interweaved",
           "transcription": "ˌɪntərˈwoʊvən / ˌɪntərˈwiːvd"
         },
-        "name": [
-          "interweave",
-          "ˌɪntərˈwiːv"
-        ],
         "translations": {
           "ua": "сплітати, переплітати, змішувати, воткати",
           "ru": "смешивать, воткать"
@@ -2743,10 +2362,6 @@ export const irregularVerbs =
           "word": "interwound",
           "transcription": "ˌɪntərˈwaʊnd"
         },
-        "name": [
-          "interwind",
-          "ˌɪntərˈwɪnd"
-        ],
         "translations": {
           "ua": "переплітати, перематувати",
           "ru": "переплетать, перематывать"
@@ -2770,10 +2385,6 @@ export const irregularVerbs =
           "word": "jerry-built",
           "transcription": "ˈdʒɛri bɪlt"
         },
-        "name": [
-          "jerry-build",
-          "ˈdʒɛri bɪlt"
-        ],
         "translations": {
           "ua": "побудувати на швидку руку, якось",
           "ru": "построить на скорую руку, кое-как"
@@ -2797,10 +2408,6 @@ export const irregularVerbs =
           "word": "kept",
           "transcription": "kɛpt"
         },
-        "name": [
-          "keep",
-          "kiːp"
-        ],
         "translations": {
           "ua": "тримати, зберігати",
           "ru": "держать, сохранять"
@@ -2824,10 +2431,6 @@ export const irregularVerbs =
           "word": "knelt / kneeled",
           "transcription": "nɛlt / niːld"
         },
-        "name": [
-          "kneel",
-          "niːl"
-        ],
         "translations": {
           "ua": "ставати на коліна",
           "ru": "становиться на колени"
@@ -2838,7 +2441,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "knit",
           "transcription": "nɪt"
@@ -2851,10 +2454,6 @@ export const irregularVerbs =
           "word": "knitted / knit",
           "transcription": "ˈnɪtɪd / nɪt"
         },
-        "name": [
-          "knit",
-          "nɪt"
-        ],
         "translations": {
           "ua": "в'язати, штопати",
           "ru": "вязать, штопать"
@@ -2865,7 +2464,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "know",
           "transcription": "noʊ"
@@ -2878,10 +2477,6 @@ export const irregularVerbs =
           "word": "known",
           "transcription": "noʊn"
         },
-        "name": [
-          "know",
-          "noʊ"
-        ],
         "translations": {
           "ua": "знати, вміти, бути знайомим",
           "ru": "знать, уметь, быть знакомым"
@@ -2905,10 +2500,6 @@ export const irregularVerbs =
           "word": "laid",
           "transcription": "leɪd"
         },
-        "name": [
-          "lay",
-          "leɪ"
-        ],
         "translations": {
           "ua": "класти, валяти, накривати",
           "ru": "класть, валить, накрывать"
@@ -2932,10 +2523,6 @@ export const irregularVerbs =
           "word": "led",
           "transcription": "lɛd"
         },
-        "name": [
-          "lead",
-          "liːd"
-        ],
         "translations": {
           "ua": "вести, супроводжувати",
           "ru": "вести, сопровождать"
@@ -2959,10 +2546,6 @@ export const irregularVerbs =
           "word": "leaned / leant",
           "transcription": "liːnd / lɛnt"
         },
-        "name": [
-          "lean",
-          "liːn"
-        ],
         "translations": {
           "ua": "опиратися, нахилятися, прислонюватися",
           "ru": "опираться, наклоняться, прислоняться"
@@ -2986,10 +2569,6 @@ export const irregularVerbs =
           "word": "leaped / leapt",
           "transcription": "liːpt"
         },
-        "name": [
-          "leap",
-          "liːp"
-        ],
         "translations": {
           "ua": "пригати, скакати",
           "ru": "прыгать, скакать"
@@ -3013,10 +2592,6 @@ export const irregularVerbs =
           "word": "learned / learnt",
           "transcription": "lɜrnd / lɜrnt"
         },
-        "name": [
-          "learn",
-          "lɜrn"
-        ],
         "translations": {
           "ua": "вчитися, дізнаватися",
           "ru": "учиться, узнавать"
@@ -3040,10 +2615,6 @@ export const irregularVerbs =
           "word": "left",
           "transcription": "lɛft"
         },
-        "name": [
-          "leave",
-          "liːv"
-        ],
         "translations": {
           "ua": "залишати, виїжджати",
           "ru": "оставлять, уезжать"
@@ -3067,10 +2638,6 @@ export const irregularVerbs =
           "word": "lent",
           "transcription": "lɛnt"
         },
-        "name": [
-          "lend",
-          "lɛnd"
-        ],
         "translations": {
           "ua": "одавати, давати взаймі, займати",
           "ru": "одалживать, давать взаймы, занимать"
@@ -3081,7 +2648,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "let",
           "transcription": "lɛt"
@@ -3094,10 +2661,6 @@ export const irregularVerbs =
           "word": "let",
           "transcription": "lɛt"
         },
-        "name": [
-          "let",
-          "lɛt"
-        ],
         "translations": {
           "ua": "дозволяти, допускати, випускати, проливати",
           "ru": "позволять, допускать, выпускать, проливать"
@@ -3108,7 +2671,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "lie",
           "transcription": "laɪ"
@@ -3121,10 +2684,6 @@ export const irregularVerbs =
           "word": "lain",
           "transcription": "leɪn"
         },
-        "name": [
-          "lie",
-          "laɪ"
-        ],
         "translations": {
           "ua": "лежати, розташовуватися, перебувати",
           "ru": "лежать, располагаться, находиться"
@@ -3148,10 +2707,6 @@ export const irregularVerbs =
           "word": "lit / lighted",
           "transcription": "lɪt / ˈlaɪtɪd"
         },
-        "name": [
-          "light",
-          "laɪt"
-        ],
         "translations": {
           "ua": "натрапити, обрушитися, освітлювати, запалювати, світитися",
           "ru": "наталкиваться, обрушиваться, освещать, зажигать, светиться"
@@ -3162,7 +2717,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "lip-read",
           "transcription": "lɪp-riːd"
@@ -3175,10 +2730,6 @@ export const irregularVerbs =
           "word": "lip-read",
           "transcription": "lɪp-riːd"
         },
-        "name": [
-          "lip-read",
-          "lɪp-riːd"
-        ],
         "translations": {
           "ua": "читати з губ, розуміти по губам",
           "ru": "читать с губ, понимать по губам"
@@ -3202,10 +2753,6 @@ export const irregularVerbs =
           "word": "lost",
           "transcription": "lɒst"
         },
-        "name": [
-          "lose",
-          "luːz"
-        ],
         "translations": {
           "ua": "втрачати, втрачати, позбавлятися, пропадати",
           "ru": "терять, утрачивать, избавляться, пропадать"
@@ -3229,10 +2776,6 @@ export const irregularVerbs =
           "word": "made",
           "transcription": "meɪd"
         },
-        "name": [
-          "make",
-          "meɪk"
-        ],
         "translations": {
           "ua": "робити, виробляти, вчиняти",
           "ru": "делать, производить, совершать"
@@ -3256,10 +2799,6 @@ export const irregularVerbs =
           "word": "meant",
           "transcription": "mɛnt"
         },
-        "name": [
-          "mean",
-          "miːn"
-        ],
         "translations": {
           "ua": "значити, передбачати",
           "ru": "значить, подразумевать"
@@ -3283,10 +2822,6 @@ export const irregularVerbs =
           "word": "met",
           "transcription": "mɛt"
         },
-        "name": [
-          "meet",
-          "miːt"
-        ],
         "translations": {
           "ua": "зустрічати, знайомитися",
           "ru": "встречать, знакомиться"
@@ -3297,493 +2832,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "miscast",
-          "transcription": "ˌmɪsˈkæst"
-        },
-        "pastSimple": {
-          "word": "miscast",
-          "transcription": "ˌmɪsˈkæst"
-        },
-        "pastParticiple": {
-          "word": "miscast",
-          "transcription": "ˌmɪsˈkæst"
-        },
-        "name": [
-          "miscast",
-          "ˌmɪsˈkæst"
-        ],
-        "translations": {
-          "ua": "неправильно розподіляти ролі",
-          "ru": "неправильно распределять роли"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "misdeal",
-          "transcription": "ˌmɪsˈdiːl"
-        },
-        "pastSimple": {
-          "word": "misdealt",
-          "transcription": "ˌmɪsˈdɛlt"
-        },
-        "pastParticiple": {
-          "word": "misdealt",
-          "transcription": "ˌmɪsˈdɛlt"
-        },
-        "name": [
-          "misdeal",
-          "ˌmɪsˈdiːl"
-        ],
-        "translations": {
-          "ua": "ошибатися при роздачі",
-          "ru": "ошибаться при сдаче"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "misdo",
-          "transcription": "ˌmɪsˈdu"
-        },
-        "pastSimple": {
-          "word": "misdid",
-          "transcription": "ˌmɪsˈdɪd"
-        },
-        "pastParticiple": {
-          "word": "misdone",
-          "transcription": "ˌmɪsˈdʌn"
-        },
-        "name": [
-          "misdo",
-          "ˌmɪsˈdu"
-        ],
-        "translations": {
-          "ua": "робити неправильно, недбало",
-          "ru": "делать неправильно, небрежно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "mishear",
-          "transcription": "ˌmɪsˈhɪr"
-        },
-        "pastSimple": {
-          "word": "misheard",
-          "transcription": "ˌmɪsˈhɜrd"
-        },
-        "pastParticiple": {
-          "word": "misheard",
-          "transcription": "ˌmɪsˈhɜrd"
-        },
-        "name": [
-          "mishear",
-          "ˌmɪsˈhɪr"
-        ],
-        "translations": {
-          "ua": "ослухатися, не розчути",
-          "ru": "ослышаться, не расслышать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "mislay",
-          "transcription": "ˌmɪsˈleɪ"
-        },
-        "pastSimple": {
-          "word": "mislaid",
-          "transcription": "ˌmɪsˈleɪd"
-        },
-        "pastParticiple": {
-          "word": "mislaid",
-          "transcription": "ˌmɪsˈleɪd"
-        },
-        "name": [
-          "mislay",
-          "ˌmɪsˈleɪ"
-        ],
-        "translations": {
-          "ua": "покласти не на місце, загубити",
-          "ru": "положить не на место, затерять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "mislead",
-          "transcription": "ˌmɪsˈliːd"
-        },
-        "pastSimple": {
-          "word": "misled",
-          "transcription": "ˌmɪsˈlɛd"
-        },
-        "pastParticiple": {
-          "word": "misled",
-          "transcription": "ˌmɪsˈlɛd"
-        },
-        "name": [
-          "mislead",
-          "ˌmɪsˈliːd"
-        ],
-        "translations": {
-          "ua": "вводити в оману, вводити з пути",
-          "ru": "вводить в заблуждение, сбивать с пути"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "mislearn",
-          "transcription": "ˌmɪsˈlɜrn"
-        },
-        "pastSimple": {
-          "word": "mislearned / mislearnt",
-          "transcription": "ˌmɪsˈlɜrnd / ˌmɪsˈlɜrnt"
-        },
-        "pastParticiple": {
-          "word": "mislearned / mislearnt",
-          "transcription": "ˌmɪsˈlɜrnd / ˌmɪsˈlɜrnt"
-        },
-        "name": [
-          "mislearn",
-          "ˌmɪsˈlɜrn"
-        ],
-        "translations": {
-          "ua": "навчатися, вчити неправильно",
-          "ru": "обучаться, учить неправильно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "misread",
-          "transcription": "ˌmɪsˈriːd"
-        },
-        "pastSimple": {
-          "word": "misread",
-          "transcription": "ˌmɪsˈriːd"
-        },
-        "pastParticiple": {
-          "word": "misread",
-          "transcription": "ˌmɪsˈriːd"
-        },
-        "name": [
-          "misread",
-          "ˌmɪsˈriːd"
-        ],
-        "translations": {
-          "ua": "прочитати неправильно, неправильно зрозуміти",
-          "ru": "прочитать неправильно, неправильно понять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "missay",
-          "transcription": "ˌmɪsˈseɪ"
-        },
-        "pastSimple": {
-          "word": "missaid",
-          "transcription": "ˌmɪsˈsɛd"
-        },
-        "pastParticiple": {
-          "word": "missaid",
-          "transcription": "ˌmɪsˈsɛd"
-        },
-        "name": [
-          "missay",
-          "ˌmɪsˈseɪ"
-        ],
-        "translations": {
-          "ua": "оговоритися, сказати неправильно",
-          "ru": "оговориться, сказать неправильно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "misset",
-          "transcription": "ˈmɪsɪt"
-        },
-        "pastSimple": {
-          "word": "misset",
-          "transcription": "ˈmɪsɪt"
-        },
-        "pastParticiple": {
-          "word": "misset",
-          "transcription": "ˈmɪsɪt"
-        },
-        "name": [
-          "misset",
-          "ˈmɪsɪt"
-        ],
-        "translations": {
-          "ua": "неправильно встановити",
-          "ru": "неправильно установить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "misspeak",
-          "transcription": "ˌmɪsˈspiːk"
-        },
-        "pastSimple": {
-          "word": "misspoke",
-          "transcription": "ˌmɪsˈspoʊk"
-        },
-        "pastParticiple": {
-          "word": "misspoken",
-          "transcription": "ˌmɪsˈspoʊkən"
-        },
-        "name": [
-          "misspeak",
-          "ˌmɪsˈspiːk"
-        ],
-        "translations": {
-          "ua": "говорити, вимовляти неправильно",
-          "ru": "говорить, произносить неправильно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "misspell",
-          "transcription": "ˌmɪsˈspɛl"
-        },
-        "pastSimple": {
-          "word": "misspelled / misspelt",
-          "transcription": "ˌmɪsˈspɛld / ˌmɪsˈspɛlt"
-        },
-        "pastParticiple": {
-          "word": "misspelled / misspelt",
-          "transcription": "ˌmɪsˈspɛld / ˌmɪsˈspɛlt"
-        },
-        "name": [
-          "misspell",
-          "ˌmɪsˈspɛl"
-        ],
-        "translations": {
-          "ua": "писати з помилками, робити орфографічні помилки",
-          "ru": "писать с ошибками, делать орфографические ошибки"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "misspend",
-          "transcription": "ˌmɪsˈspɛnd"
-        },
-        "pastSimple": {
-          "word": "misspent",
-          "transcription": "ˌmɪsˈspɛnt"
-        },
-        "pastParticiple": {
-          "word": "misspent",
-          "transcription": "ˌmɪsˈspɛnt"
-        },
-        "name": [
-          "misspend",
-          "ˌmɪsˈspɛnd"
-        ],
-        "translations": {
-          "ua": "нерозумно витрачати, транжирити",
-          "ru": "неразумно тратить, транжирить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "misswear",
-          "transcription": "ˌmɪsˈwɛr"
-        },
-        "pastSimple": {
-          "word": "misswore",
-          "transcription": "ˌmɪsˈwɔr"
-        },
-        "pastParticiple": {
-          "word": "missworn",
-          "transcription": "ˌmɪsˈwɔrn"
-        },
-        "name": [
-          "misswear",
-          "ˌmɪsˈwɛr"
-        ],
-        "translations": {
-          "ua": "давати хибну клятву",
-          "ru": "давать ложную клятву"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "mistake",
-          "transcription": "mɪsˈteɪk"
-        },
-        "pastSimple": {
-          "word": "mistook",
-          "transcription": "mɪsˈtʊk"
-        },
-        "pastParticiple": {
-          "word": "mistaken",
-          "transcription": "mɪsˈteɪkən"
-        },
-        "name": [
-          "mistake",
-          "mɪsˈteɪk"
-        ],
-        "translations": {
-          "ua": "ошибитися, заблудитися",
-          "ru": "ошибаться, заблуждаться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "misteach",
-          "transcription": "mɪsˈtiːʧ"
-        },
-        "pastSimple": {
-          "word": "mistaught",
-          "transcription": "mɪsˈtɔt"
-        },
-        "pastParticiple": {
-          "word": "mistaught",
-          "transcription": "mɪsˈtɔt"
-        },
-        "name": [
-          "misteach",
-          "mɪsˈtiːʧ"
-        ],
-        "translations": {
-          "ua": "неправильно навчати",
-          "ru": "неправильно обучать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "misunderstand",
-          "transcription": "ˌmɪsʌndəˈstænd"
-        },
-        "pastSimple": {
-          "word": "misunderstood",
-          "transcription": "ˌmɪsʌndərˈstʊd"
-        },
-        "pastParticiple": {
-          "word": "misunderstood",
-          "transcription": "ˌmɪsʌndərˈstʊd"
-        },
-        "name": [
-          "misunderstand",
-          "ˌmɪsʌndəˈstænd"
-        ],
-        "translations": {
-          "ua": "не розуміти, неправильно розуміти",
-          "ru": "не понимать, понять неправильно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "miswrite",
-          "transcription": "ˌmɪsˈraɪt"
-        },
-        "pastSimple": {
-          "word": "miswrote",
-          "transcription": "ˌmɪsˈroʊt"
-        },
-        "pastParticiple": {
-          "word": "miswritten",
-          "transcription": "ˌmɪsˈrɪtən"
-        },
-        "name": [
-          "miswrite",
-          "ˌmɪsˈraɪt"
-        ],
-        "translations": {
-          "ua": "неправильно писати",
-          "ru": "неправильно писать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "mow",
           "transcription": "moʊ"
@@ -3796,10 +2845,6 @@ export const irregularVerbs =
           "word": "mowed / mown",
           "transcription": "moʊd / moʊn"
         },
-        "name": [
-          "mow",
-          "moʊ"
-        ],
         "translations": {
           "ua": "косити, стригти (газон), жати",
           "ru": "косить, стричь (газон), жать"
@@ -3810,7 +2855,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "offset",
           "transcription": "ˈɒfˌsɛt"
@@ -3823,10 +2868,6 @@ export const irregularVerbs =
           "word": "offset",
           "transcription": "ˈɒfˌsɛt"
         },
-        "name": [
-          "offset",
-          "ˈɒfˌsɛt"
-        ],
         "translations": {
           "ua": "возмещать",
           "ru": "возмещать, компенсировать, ответвляться"
@@ -3837,1627 +2878,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "outbid",
-          "transcription": "aʊtˈbɪd"
-        },
-        "pastSimple": {
-          "word": "outbid",
-          "transcription": "aʊtˈbɪd"
-        },
-        "pastParticiple": {
-          "word": "outbid",
-          "transcription": "aʊtˈbɪd"
-        },
-        "name": [
-          "outbid",
-          "aʊtˈbɪd"
-        ],
-        "translations": {
-          "ua": "перебивати ціну, перевищувати, затмити",
-          "ru": "перебивать цену, превзойти, затмить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outdo",
-          "transcription": "aʊtˈdu"
-        },
-        "pastSimple": {
-          "word": "outdid",
-          "transcription": "aʊtˈdɪd"
-        },
-        "pastParticiple": {
-          "word": "outdone",
-          "transcription": "aʊtˈdʌn"
-        },
-        "name": [
-          "outdo",
-          "aʊtˈdu"
-        ],
-        "translations": {
-          "ua": "перевершити, вразити, подолати",
-          "ru": "превзойти, поражать, побороть"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outdraw",
-          "transcription": "aʊtˈdrɔ"
-        },
-        "pastSimple": {
-          "word": "outdrew",
-          "transcription": "aʊtˈdru"
-        },
-        "pastParticiple": {
-          "word": "outdrawn",
-          "transcription": "aʊtˈdrɔn"
-        },
-        "name": [
-          "outdraw",
-          "aʊtˈdrɔ"
-        ],
-        "translations": {
-          "ua": "досягти більшої популярності, перевищити конкурентів",
-          "ru": "добиться большей популярности, превзойти конкурентов"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outdrink",
-          "transcription": "aʊtˈdrɪŋk"
-        },
-        "pastSimple": {
-          "word": "outdrank",
-          "transcription": "aʊtˈdræŋk"
-        },
-        "pastParticiple": {
-          "word": "outdrunk",
-          "transcription": "aʊtˈdrʌŋk"
-        },
-        "name": [
-          "outdrink",
-          "aʊtˈdrɪŋk"
-        ],
-        "translations": {
-          "ua": "перепити (когось), випити більше, ніж хтось",
-          "ru": "перепить (кого-то), выпить больше, чем кто-то"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outdrive",
-          "transcription": "aʊtˈdraɪv"
-        },
-        "pastSimple": {
-          "word": "outdrove",
-          "transcription": "aʊtˈdroʊv"
-        },
-        "pastParticiple": {
-          "word": "outdriven",
-          "transcription": "aʊtˈdrɪvən"
-        },
-        "name": [
-          "outdrive",
-          "aʊtˈdraɪv"
-        ],
-        "translations": {
-          "ua": "обійти, опередити",
-          "ru": "обогнать, опередить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outfight",
-          "transcription": "aʊtˈfaɪt"
-        },
-        "pastSimple": {
-          "word": "outfought",
-          "transcription": "aʊtˈfɔt"
-        },
-        "pastParticiple": {
-          "word": "outfought",
-          "transcription": "aʊtˈfɔt"
-        },
-        "name": [
-          "outfight",
-          "aʊtˈfaɪt"
-        ],
-        "translations": {
-          "ua": "мати перевагу над супротивником, перемагати",
-          "ru": "иметь перевес над противником, побеждать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outfly",
-          "transcription": "aʊtˈflaɪ"
-        },
-        "pastSimple": {
-          "word": "outflew",
-          "transcription": "aʊtˈflu"
-        },
-        "pastParticiple": {
-          "word": "outflown",
-          "transcription": "aʊtˈfloʊn"
-        },
-        "name": [
-          "outfly",
-          "aʊtˈflaɪ"
-        ],
-        "translations": {
-          "ua": "вилетати, летіти швидше, далі (ніж хтось)",
-          "ru": "вылетать, летать быстрее, дальше (чем кто-либо)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outgrow",
-          "transcription": "aʊtˈɡroʊ"
-        },
-        "pastSimple": {
-          "word": "outgrew",
-          "transcription": "aʊtˈɡru"
-        },
-        "pastParticiple": {
-          "word": "outgrown",
-          "transcription": "aʊtˈɡroʊn"
-        },
-        "name": [
-          "outgrow",
-          "aʊtˈɡroʊ"
-        ],
-        "translations": {
-          "ua": "перегінати в рості, переростати, позбавлятися з віком",
-          "ru": "опережать в росте, перерастать, избавляться с возрастом"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outleap",
-          "transcription": "aʊtˈlip / aʊtˈlɛpt"
-        },
-        "pastSimple": {
-          "word": "outleaped / outleapt",
-          "transcription": "aʊtˈlipt / aʊtˈlɛpt"
-        },
-        "pastParticiple": {
-          "word": "outleaped / outleapt",
-          "transcription": "aʊtˈlipt / aʊtˈlɛpt"
-        },
-        "name": [
-          "outleap",
-          "aʊtˈlip / aʊtˈlɛpt"
-        ],
-        "translations": {
-          "ua": "перескакувати, вискакувати, стрибати краще",
-          "ru": "перепрыгивать, выпрыгивать, прыгать лучше"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outlie",
-          "transcription": "aʊtˈlaɪ"
-        },
-        "pastSimple": {
-          "word": "outlay",
-          "transcription": "aʊtˈleɪ"
-        },
-        "pastParticiple": {
-          "word": "outlain",
-          "transcription": "aʊtˈleɪn"
-        },
-        "name": [
-          "outlie",
-          "aʊtˈlaɪ"
-        ],
-        "translations": {
-          "ua": "знаходитися ззовні, поза, простиратися",
-          "ru": "находиться снаружи, вне, простираться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outrun",
-          "transcription": "aʊtˈrʌn"
-        },
-        "pastSimple": {
-          "word": "outran",
-          "transcription": "aʊtˈræn"
-        },
-        "pastParticiple": {
-          "word": "outrun",
-          "transcription": "aʊtˈrʌn"
-        },
-        "name": [
-          "outrun",
-          "aʊtˈrʌn"
-        ],
-        "translations": {
-          "ua": "переганяти, випереджати, утікати, сходити",
-          "ru": "перегонять, опережать, убегать, сбежать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outsell",
-          "transcription": "aʊtˈsɛl"
-        },
-        "pastSimple": {
-          "word": "outsold",
-          "transcription": "aʊtˈsoʊld"
-        },
-        "pastParticiple": {
-          "word": "outsold",
-          "transcription": "aʊtˈsoʊld"
-        },
-        "name": [
-          "outsell",
-          "aʊtˈsɛl"
-        ],
-        "translations": {
-          "ua": "продавати, продаватися краще, перевершувати в ціні",
-          "ru": "продавать, продаваться лучше, превосходить в цене"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outshine",
-          "transcription": "aʊtˈʃaɪn"
-        },
-        "pastSimple": {
-          "word": "outshined / outshone",
-          "transcription": "aʊtˈʃaɪnd / aʊtˈʃoʊn"
-        },
-        "pastParticiple": {
-          "word": "outshined / outshone",
-          "transcription": "aʊtˈʃaɪnd / aʊtˈʃoʊn"
-        },
-        "name": [
-          "outshine",
-          "aʊtˈʃaɪn"
-        ],
-        "translations": {
-          "ua": "затмити, перевершити, перевершувати",
-          "ru": "затмевать, превосходить, превосходить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outshoot",
-          "transcription": "aʊtˈʃuːt"
-        },
-        "pastSimple": {
-          "word": "outshot",
-          "transcription": "aʊtˈʃɒt"
-        },
-        "pastParticiple": {
-          "word": "outshot",
-          "transcription": "aʊtˈʃɒt"
-        },
-        "name": [
-          "outshoot",
-          "aʊtˈʃuːt"
-        ],
-        "translations": {
-          "ua": "стріляти краще, відкидати, викидати",
-          "ru": "стрелять лучше, отбрасывать, выбрасывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outsing",
-          "transcription": "aʊtˈsɪŋ"
-        },
-        "pastSimple": {
-          "word": "outsang",
-          "transcription": "aʊtˈsæŋ"
-        },
-        "pastParticiple": {
-          "word": "outsung",
-          "transcription": "aʊtˈsʌŋ"
-        },
-        "name": [
-          "outsing",
-          "aʊtˈsɪŋ"
-        ],
-        "translations": {
-          "ua": "перевершити в співі",
-          "ru": "превзойти в пении"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outsit",
-          "transcription": "aʊtˈsɪt"
-        },
-        "pastSimple": {
-          "word": "outsat",
-          "transcription": "aʊtˈsæt"
-        },
-        "pastParticiple": {
-          "word": "outsat",
-          "transcription": "aʊtˈsæt"
-        },
-        "name": [
-          "outsit",
-          "aʊtˈsɪt"
-        ],
-        "translations": {
-          "ua": "пересидіти, засидіти",
-          "ru": "пересидеть, засидеться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outsleep",
-          "transcription": "aʊtˈsliːp"
-        },
-        "pastSimple": {
-          "word": "outslept",
-          "transcription": "aʊtˈslept"
-        },
-        "pastParticiple": {
-          "word": "outslept",
-          "transcription": "aʊtˈslept"
-        },
-        "name": [
-          "outsleep",
-          "aʊtˈsliːp"
-        ],
-        "translations": {
-          "ua": "проспати, прозевати",
-          "ru": "проспать, прозевать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outsmell",
-          "transcription": "aʊtˈsmɛl"
-        },
-        "pastSimple": {
-          "word": "outsmelled / outsmelt",
-          "transcription": "aʊtˈsmɛld / aʊtˈsmɛlt"
-        },
-        "pastParticiple": {
-          "word": "outsmelled / outsmelt",
-          "transcription": "aʊtˈsmɛld / aʊtˈsmɛlt"
-        },
-        "name": [
-          "outsmell",
-          "aʊtˈsmɛl"
-        ],
-        "translations": {
-          "ua": "пахнути сильніше, ніж щось",
-          "ru": "пахнуть сильнее, чем что-то"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outspeak",
-          "transcription": "aʊtˈspiːk"
-        },
-        "pastSimple": {
-          "word": "outspoke",
-          "transcription": "aʊtˈspoʊk"
-        },
-        "pastParticiple": {
-          "word": "outspoken",
-          "transcription": "aʊtˈspoʊkən"
-        },
-        "name": [
-          "outspeak",
-          "aʊtˈspiːk"
-        ],
-        "translations": {
-          "ua": "говорити краще, висловитися, заявити",
-          "ru": "говорить лучше, высказаться, заявить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outspeed",
-          "transcription": "aʊtˈspiːd / aʊtˈspiːdɪd"
-        },
-        "pastSimple": {
-          "word": "outsped / outspeeded",
-          "transcription": "aʊtˈspɛd / aʊtˈspiːdɪd"
-        },
-        "pastParticiple": {
-          "word": "outsped / outspeeded",
-          "transcription": "aʊtˈspɛd / aʊtˈspiːdɪd"
-        },
-        "name": [
-          "outspeed",
-          "aʊtˈspiːd / aʊtˈspiːdɪd"
-        ],
-        "translations": {
-          "ua": "переганяти, бути, діяти швидше",
-          "ru": "перегонять, быть, действовать быстрее"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outspend",
-          "transcription": "aʊtˈspɛnd"
-        },
-        "pastSimple": {
-          "word": "outspent",
-          "transcription": "aʊtˈspɛnt"
-        },
-        "pastParticiple": {
-          "word": "outspent",
-          "transcription": "aʊtˈspɛnt"
-        },
-        "name": [
-          "outspend",
-          "aʊtˈspɛnd"
-        ],
-        "translations": {
-          "ua": "перевершити по витратах, тратити більше",
-          "ru": "превзойти по расходам, тратить больше"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outstand",
-          "transcription": "aʊtˈstænd"
-        },
-        "pastSimple": {
-          "word": "outstood",
-          "transcription": "aʊtˈstʊd"
-        },
-        "pastParticiple": {
-          "word": "outstood",
-          "transcription": "aʊtˈstʊd"
-        },
-        "name": [
-          "outstand",
-          "aʊtˈstænd"
-        ],
-        "translations": {
-          "ua": "виділятися, кидатися в очі",
-          "ru": "выделяться, бросаться в глаза"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outswear",
-          "transcription": "aʊtˈswɛər"
-        },
-        "pastSimple": {
-          "word": "outswore",
-          "transcription": "aʊtˈswɔr"
-        },
-        "pastParticiple": {
-          "word": "outsworn",
-          "transcription": "aʊtˈswɔrn"
-        },
-        "name": [
-          "outswear",
-          "aʊtˈswɛər"
-        ],
-        "translations": {
-          "ua": "переважати в лайці",
-          "ru": "превосходить в ругани"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outswim",
-          "transcription": "aʊtˈswɪm"
-        },
-        "pastSimple": {
-          "word": "outswam",
-          "transcription": "aʊtˈswæm"
-        },
-        "pastParticiple": {
-          "word": "outswum",
-          "transcription": "aʊtˈswʌm"
-        },
-        "name": [
-          "outswim",
-          "aʊtˈswɪm"
-        ],
-        "translations": {
-          "ua": "переважати в плаванні",
-          "ru": "превосходить в плавании"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "outthink",
-          "transcription": "aʊtˈθɪŋk"
-        },
-        "pastSimple": {
-          "word": "outthought",
-          "transcription": "aʊtˈθɔt"
-        },
-        "pastParticiple": {
-          "word": "outthought",
-          "transcription": "aʊtˈθɔt"
-        },
-        "name": [
-          "outthink",
-          "aʊtˈθɪŋk"
-        ],
-        "translations": {
-          "ua": "переважати розумом, перехитрити",
-          "ru": "превосходить разумом, перехитрить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outthrow",
-          "transcription": "aʊtˈθroʊ"
-        },
-        "pastSimple": {
-          "word": "outthrew",
-          "transcription": "aʊtˈθru"
-        },
-        "pastParticiple": {
-          "word": "outthrown",
-          "transcription": "aʊtˈθroʊn"
-        },
-        "name": [
-          "outthrow",
-          "aʊtˈθroʊ"
-        ],
-        "translations": {
-          "ua": "викидати, викидати, кидати краще",
-          "ru": "выбрасывать, извергать, бросать лучше"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outwear",
-          "transcription": "aʊtˈwɛr"
-        },
-        "pastSimple": {
-          "word": "outwore",
-          "transcription": "aʊtˈwɔr"
-        },
-        "pastParticiple": {
-          "word": "worn",
-          "transcription": "wɔrn"
-        },
-        "name": [
-          "outwear",
-          "aʊtˈwɛr"
-        ],
-        "translations": {
-          "ua": "зношувати, служити довше за інші речі",
-          "ru": "изнашивать, служить дольше остальных вещей"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "outwrite",
-          "transcription": "aʊtˈraɪt"
-        },
-        "pastSimple": {
-          "word": "outwrote",
-          "transcription": "aʊtˈroʊt"
-        },
-        "pastParticiple": {
-          "word": "outwritten",
-          "transcription": "aʊtˈrɪtən"
-        },
-        "name": [
-          "outwrite",
-          "aʊtˈraɪt"
-        ],
-        "translations": {
-          "ua": "писати краще",
-          "ru": "писать лучше"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "overbid",
-          "transcription": "ˌoʊvərˈbɪd"
-        },
-        "pastSimple": {
-          "word": "overbid",
-          "transcription": "ˌoʊvərˈbɪd"
-        },
-        "pastParticiple": {
-          "word": "overbid",
-          "transcription": "ˌoʊvərˈbɪd"
-        },
-        "name": [
-          "overbid",
-          "ˌoʊvərˈbɪd"
-        ],
-        "translations": {
-          "ua": "перебивати ціну, брати взятку",
-          "ru": "перебивать цену, взятку"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overbreed",
-          "transcription": "ˌoʊvərˈbriːd"
-        },
-        "pastSimple": {
-          "word": "overbred",
-          "transcription": "ˌoʊvərˈbrɛd"
-        },
-        "pastParticiple": {
-          "word": "overbred",
-          "transcription": "ˌoʊvərˈbrɛd"
-        },
-        "name": [
-          "overbreed",
-          "ˌoʊvərˈbriːd"
-        ],
-        "translations": {
-          "ua": "разводити, вирощувати тварин в надмірній кількості",
-          "ru": "разводить, выращивать животных в чрезмерном количестве"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overbuild",
-          "transcription": "ˌoʊvərˈbɪld"
-        },
-        "pastSimple": {
-          "word": "overbuilt",
-          "transcription": "ˌoʊvərˈbɪlt"
-        },
-        "pastParticiple": {
-          "word": "overbuilt",
-          "transcription": "ˌoʊvərˈbɪlt"
-        },
-        "name": [
-          "overbuild",
-          "ˌoʊvərˈbɪld"
-        ],
-        "translations": {
-          "ua": "чрезмерно забудовувати, надзабудовувати",
-          "ru": "чрезмерно застраивать, надстраивать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overbuy",
-          "transcription": "ˌoʊvərˈbaɪ"
-        },
-        "pastSimple": {
-          "word": "overbought",
-          "transcription": "ˌoʊvərˈbɔt"
-        },
-        "pastParticiple": {
-          "word": "overbought",
-          "transcription": "ˌoʊvərˈbɔt"
-        },
-        "name": [
-          "overbuy",
-          "ˌoʊvərˈbaɪ"
-        ],
-        "translations": {
-          "ua": "купувати занадто багато, занадто дорого",
-          "ru": "покупать слишком много, слишком дорого"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overcome",
-          "transcription": "ˌoʊvərˈkʌm"
-        },
-        "pastSimple": {
-          "word": "overcame",
-          "transcription": "ˌoʊvərˈkeɪm"
-        },
-        "pastParticiple": {
-          "word": "overcome",
-          "transcription": "ˌoʊvərˈkʌm"
-        },
-        "name": [
-          "overcome",
-          "ˌoʊvərˈkʌm"
-        ],
-        "translations": {
-          "ua": "перебороти, побороти",
-          "ru": "преодолеть, побороть"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overdo",
-          "transcription": "ˌoʊvərˈdu"
-        },
-        "pastSimple": {
-          "word": "overdid",
-          "transcription": "ˌoʊvərˈdɪd"
-        },
-        "pastParticiple": {
-          "word": "overdone",
-          "transcription": "ˌoʊvərˈdʌn"
-        },
-        "name": [
-          "overdo",
-          "ˌoʊvərˈdu"
-        ],
-        "translations": {
-          "ua": "перестаратися, переборщити, вирізняти, переутомлятися",
-          "ru": "перестараться, переборщить, утрировать, переутомляться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overdraw",
-          "transcription": "ˌoʊvərˈdrɔ"
-        },
-        "pastSimple": {
-          "word": "overdrew",
-          "transcription": "ˌoʊvərˈdru"
-        },
-        "pastParticiple": {
-          "word": "overdrawn",
-          "transcription": "ˌoʊvərˈdrɔn"
-        },
-        "name": [
-          "overdraw",
-          "ˌoʊvərˈdrɔ"
-        ],
-        "translations": {
-          "ua": "перевищити кредит, гіперболізувати",
-          "ru": "превысить кредит, гиперболизировать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overdrink",
-          "transcription": "ˌoʊvərˈdrɪŋk"
-        },
-        "pastSimple": {
-          "word": "overdrank",
-          "transcription": "ˌoʊvərˈdræŋk"
-        },
-        "pastParticiple": {
-          "word": "overdrunk",
-          "transcription": "ˌoʊvərˈdrʌŋk"
-        },
-        "name": [
-          "overdrink",
-          "ˌoʊvərˈdrɪŋk"
-        ],
-        "translations": {
-          "ua": "перепити, занадто багато пити",
-          "ru": "перепить, слишком много пить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overeat",
-          "transcription": "ˌoʊvərˈiːt"
-        },
-        "pastSimple": {
-          "word": "overate",
-          "transcription": "ˌoʊvərˈeɪt"
-        },
-        "pastParticiple": {
-          "word": "overeaten",
-          "transcription": "ˌoʊvərˈiːtən"
-        },
-        "name": [
-          "overeat",
-          "ˌoʊvərˈiːt"
-        ],
-        "translations": {
-          "ua": "переїсти, їсти занадто багато",
-          "ru": "переесть, есть слишком много"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overfeed",
-          "transcription": "ˌoʊvərˈfiːd"
-        },
-        "pastSimple": {
-          "word": "overfed",
-          "transcription": "ˌoʊvərˈfɛd"
-        },
-        "pastParticiple": {
-          "word": "overfed",
-          "transcription": "ˌoʊvərˈfɛd"
-        },
-        "name": [
-          "overfeed",
-          "ˌoʊvərˈfiːd"
-        ],
-        "translations": {
-          "ua": "перекармлювати, обжиратися",
-          "ru": "перекармливать, объедаться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overfly",
-          "transcription": "ˌoʊvərˈflaɪ"
-        },
-        "pastSimple": {
-          "word": "overflew",
-          "transcription": "ˌoʊvərˈflu"
-        },
-        "pastParticiple": {
-          "word": "overflown",
-          "transcription": "ˌoʊvərˈfloʊn"
-        },
-        "name": [
-          "overfly",
-          "ˌoʊvərˈflaɪ"
-        ],
-        "translations": {
-          "ua": "перельотжувати, пролітати над чимось",
-          "ru": "перелетать, пролетать над чем-то"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overhang",
-          "transcription": "ˌoʊvərˈhæŋ"
-        },
-        "pastSimple": {
-          "word": "overhung",
-          "transcription": "ˌoʊvərˈhʌŋ"
-        },
-        "pastParticiple": {
-          "word": "overhung",
-          "transcription": "ˌoʊvərˈhʌŋ"
-        },
-        "name": [
-          "overhang",
-          "ˌoʊvərˈhæŋ"
-        ],
-        "translations": {
-          "ua": "виступати, нависати, загрожувати, вішати драпіровку",
-          "ru": "выступать, нависать, угрожать, вешать драпировку"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overhear",
-          "transcription": "ˌoʊvərˈhɪr"
-        },
-        "pastSimple": {
-          "word": "overheard",
-          "transcription": "ˌoʊvərˈhɜrd"
-        },
-        "pastParticiple": {
-          "word": "overheard",
-          "transcription": "ˌoʊvərˈhɜrd"
-        },
-        "name": [
-          "overhear",
-          "ˌoʊvərˈhɪr"
-        ],
-        "translations": {
-          "ua": "підслуховувати, випадково чути",
-          "ru": "подслушивать, нечаянно услышать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overlay",
-          "transcription": "ˌoʊvərˈleɪ"
-        },
-        "pastSimple": {
-          "word": "overlaid",
-          "transcription": "ˌoʊvərˈleɪd"
-        },
-        "pastParticiple": {
-          "word": "overlaid",
-          "transcription": "ˌoʊvərˈleɪd"
-        },
-        "name": [
-          "overlay",
-          "ˌoʊvərˈleɪ"
-        ],
-        "translations": {
-          "ua": "покривати, перекривати, впливати",
-          "ru": "покрывать, перекрывать, оказывать влияние"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overlie",
-          "transcription": "ˌoʊvərˈlaɪ"
-        },
-        "pastSimple": {
-          "word": "overlay",
-          "transcription": "ˌoʊvərˈleɪ"
-        },
-        "pastParticiple": {
-          "word": "overlain",
-          "transcription": "ˌoʊvərˈleɪn"
-        },
-        "name": [
-          "overlie",
-          "ˌoʊvərˈlaɪ"
-        ],
-        "translations": {
-          "ua": "лежати, залежати над чимось, перекривати",
-          "ru": "лежать, залегать над чем-то, перекрывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overpay",
-          "transcription": "ˌoʊvərˈpeɪ"
-        },
-        "pastSimple": {
-          "word": "overpaid",
-          "transcription": "ˌoʊvərˈpeɪd"
-        },
-        "pastParticiple": {
-          "word": "overpaid",
-          "transcription": "ˌoʊvərˈpeɪd"
-        },
-        "name": [
-          "overpay",
-          "ˌoʊvərˈpeɪ"
-        ],
-        "translations": {
-          "ua": "переплачувати, відшкодовувати з вирушкою",
-          "ru": "переплачивать, возмещать с избытком"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "override",
-          "transcription": "ˌoʊvərˈraɪd"
-        },
-        "pastSimple": {
-          "word": "overrode",
-          "transcription": "ˌoʊvərˈroʊd"
-        },
-        "pastParticiple": {
-          "word": "overridden",
-          "transcription": "ˌoʊvərˈrɪdn̩"
-        },
-        "name": [
-          "override",
-          "ˌoʊvərˈraɪd"
-        ],
-        "translations": {
-          "ua": "скасовувати, переважати, перевешивати, переїжджати",
-          "ru": "отменять, перевешивать, преобладать, переехать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overrun",
-          "transcription": "ˌoʊvərˈrʌn"
-        },
-        "pastSimple": {
-          "word": "overran",
-          "transcription": "ˌoʊvərˈræn"
-        },
-        "pastParticiple": {
-          "word": "overrun",
-          "transcription": "ˌoʊvərˈrʌn"
-        },
-        "name": [
-          "overrun",
-          "ˌoʊvərˈrʌn"
-        ],
-        "translations": {
-          "ua": "переходити межі, захоплювати, заповнювати",
-          "ru": "переходить пределы, захватывать, заполонять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "oversee",
-          "transcription": "ˌoʊvərˈsi"
-        },
-        "pastSimple": {
-          "word": "oversaw",
-          "transcription": "ˌoʊvərˈsɔ"
-        },
-        "pastParticiple": {
-          "word": "overseen",
-          "transcription": "ˌoʊvərˈsin"
-        },
-        "name": [
-          "oversee",
-          "ˌoʊvərˈsi"
-        ],
-        "translations": {
-          "ua": "наглядати, наглядати, слідкувати, підглядати",
-          "ru": "наблюдать, надзирать, следить, подсмотреть"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "oversell",
-          "transcription": "ˌoʊvərˈsɛl"
-        },
-        "pastSimple": {
-          "word": "oversold",
-          "transcription": "ˌoʊvərˈsoʊld"
-        },
-        "pastParticiple": {
-          "word": "oversold",
-          "transcription": "ˌoʊvərˈsoʊld"
-        },
-        "name": [
-          "oversell",
-          "ˌoʊvərˈsɛl"
-        ],
-        "translations": {
-          "ua": "перехвалювати, нав'язувати продукцію, продати більше своїх запасів",
-          "ru": "перехваливать, навязывать продукцию, продать больше своих запасов"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "overset",
-          "transcription": "ˌoʊvərˈsɛt"
-        },
-        "pastSimple": {
-          "word": "overset",
-          "transcription": "ˌoʊvərˈsɛt"
-        },
-        "pastParticiple": {
-          "word": "overset",
-          "transcription": "ˌoʊvərˈsɛt"
-        },
-        "name": [
-          "overset",
-          "ˌoʊvərˈsɛt"
-        ],
-        "translations": {
-          "ua": "порушувати порядок, руйнувати, опрокидуватися",
-          "ru": "нарушать порядок, расстраивать, опрокидываться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "oversew",
-          "transcription": "ˌoʊvərˈsoʊ"
-        },
-        "pastSimple": {
-          "word": "oversewed",
-          "transcription": "ˌoʊvərˈsɛd"
-        },
-        "pastParticiple": {
-          "word": "oversewn / oversewed",
-          "transcription": "ˌoʊvərˈsoʊn / ˌoʊvərˈsɛd"
-        },
-        "name": [
-          "oversew",
-          "ˌoʊvərˈsoʊ"
-        ],
-        "translations": {
-          "ua": "шити через край",
-          "ru": "сшивать через край"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overshoot",
-          "transcription": "ˌoʊvərˈʃuːt"
-        },
-        "pastSimple": {
-          "word": "overshot",
-          "transcription": "ˌoʊvərˈʃɑt"
-        },
-        "pastParticiple": {
-          "word": "overshot",
-          "transcription": "ˌoʊvərˈʃɑt"
-        },
-        "name": [
-          "overshoot",
-          "ˌoʊvərˈʃuːt"
-        ],
-        "translations": {
-          "ua": "промахнутися, перейти межі, стріляти до виснаження",
-          "ru": "промахнуться, перейти границы, стрелять до изнеможения"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "oversleep",
-          "transcription": "ˌoʊvərˈsliːp"
-        },
-        "pastSimple": {
-          "word": "overslept",
-          "transcription": "ˌoʊvərˈslɛpt"
-        },
-        "pastParticiple": {
-          "word": "overslept",
-          "transcription": "ˌoʊvərˈslɛpt"
-        },
-        "name": [
-          "oversleep",
-          "ˌoʊvərˈsliːp"
-        ],
-        "translations": {
-          "ua": "проспати, заставатися в ліжку",
-          "ru": "проспать, засыпать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overspeak",
-          "transcription": "ˌoʊvərˈspiːk"
-        },
-        "pastSimple": {
-          "word": "overspoke",
-          "transcription": "ˌoʊvərˈspoʊk"
-        },
-        "pastParticiple": {
-          "word": "overspoken",
-          "transcription": "ˌoʊvərˈspoʊkən"
-        },
-        "name": [
-          "overspeak",
-          "ˌoʊvərˈspiːk"
-        ],
-        "translations": {
-          "ua": "заводити багато разговорів",
-          "ru": "слишком много разговаривать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overspend",
-          "transcription": "ˌoʊvərˈspɛnd"
-        },
-        "pastSimple": {
-          "word": "overspent",
-          "transcription": "ˌoʊvərˈspɛnt"
-        },
-        "pastParticiple": {
-          "word": "overspent",
-          "transcription": "ˌoʊvərˈspɛnt"
-        },
-        "name": [
-          "overspend",
-          "ˌoʊvərˈspɛnd"
-        ],
-        "translations": {
-          "ua": "розтребовувати гроші, руйнувати своє здоров'я",
-          "ru": "сорить деньгами, расстраивать свое здоровье"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overspill",
-          "transcription": "ˌoʊvərˈspɪl"
-        },
-        "pastSimple": {
-          "word": "overspilled / overspilt",
-          "transcription": "ˌoʊvərˈspɪld / ˌoʊvərˈspɪlt"
-        },
-        "pastParticiple": {
-          "word": "overspilled / overspilt",
-          "transcription": "ˌoʊvərˈspɪld / ˌoʊvərˈspɪlt"
-        },
-        "name": [
-          "overspill",
-          "ˌoʊvərˈspɪl"
-        ],
-        "translations": {
-          "ua": "переливати, переповнювати, перенаселяти",
-          "ru": "проливать, переполнять, перенаселять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overtake",
-          "transcription": "ˌoʊvərˈteɪk"
-        },
-        "pastSimple": {
-          "word": "overtook",
-          "transcription": "ˌoʊvərˈtʊk"
-        },
-        "pastParticiple": {
-          "word": "overtaken",
-          "transcription": "ˌoʊvərˈteɪkən"
-        },
-        "name": [
-          "overtake",
-          "ˌoʊvərˈteɪk"
-        ],
-        "translations": {
-          "ua": "доганяти, наздоганяти, оволодівати, обігнати",
-          "ru": "догнать, настигать, овладевать, обогнать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overthink",
-          "transcription": "ˌoʊvərˈθɪŋk"
-        },
-        "pastSimple": {
-          "word": "overthought",
-          "transcription": "ˌoʊvərˈθɔt"
-        },
-        "pastParticiple": {
-          "word": "overthought",
-          "transcription": "ˌoʊvərˈθɔt"
-        },
-        "name": [
-          "overthink",
-          "ˌoʊvərˈθɪŋk"
-        ],
-        "translations": {
-          "ua": "надумувати зайвого, занадто багато думати",
-          "ru": "надумать лишнего, слишком много думать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overthrow",
-          "transcription": "ˌoʊvərˈθroʊ"
-        },
-        "pastSimple": {
-          "word": "overthrew",
-          "transcription": "ˌoʊvərˈθru"
-        },
-        "pastParticiple": {
-          "word": "overthrown",
-          "transcription": "ˌoʊvərˈθroʊn"
-        },
-        "name": [
-          "overthrow",
-          "ˌoʊvərˈθroʊ"
-        ],
-        "translations": {
-          "ua": "кидати далеко, свергати, руйнувати",
-          "ru": "бросать слишком далеко, свергать, разрушать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "overwind",
-          "transcription": "ˌoʊvərˈwaɪnd"
-        },
-        "pastSimple": {
-          "word": "overwound",
-          "transcription": "ˌoʊvərˈwaʊnd"
-        },
-        "pastParticiple": {
-          "word": "overwound",
-          "transcription": "ˌoʊvərˈwaʊnd"
-        },
-        "name": [
-          "overwind",
-          "ˌoʊvərˈwaɪnd"
-        ],
-        "translations": {
-          "ua": "перекручувати, крутити занадто сильно, швидко",
-          "ru": "перекрутить, крутить с лишком сильно, быстро"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "overwrite",
-          "transcription": "ˌoʊvərˈraɪt"
-        },
-        "pastSimple": {
-          "word": "overwrote",
-          "transcription": "ˌoʊvərˈroʊt"
-        },
-        "pastParticiple": {
-          "word": "overwritten",
-          "transcription": "ˌoʊvərˈrɪtən"
-        },
-        "name": [
-          "overwrite",
-          "ˌoʊvərˈraɪt"
-        ],
-        "translations": {
-          "ua": "переписувати, писати поверх тексту, багато писати",
-          "ru": "переписывать, писать поверх текста, много писать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "partake",
           "transcription": "ˌpɑrˈteɪk"
@@ -5470,10 +2891,6 @@ export const irregularVerbs =
           "word": "partaken",
           "transcription": "ˌpɑrˈteɪkən"
         },
-        "name": [
-          "partake",
-          "ˌpɑrˈteɪk"
-        ],
         "translations": {
           "ua": "брати участь, ділитися, спробувати, скористатися",
           "ru": "принимать участие, разделять, отведать, воспользоваться"
@@ -5497,10 +2914,6 @@ export const irregularVerbs =
           "word": "paid",
           "transcription": "peɪd"
         },
-        "name": [
-          "pay",
-          "peɪ"
-        ],
         "translations": {
           "ua": "платити, винагороджувати, помстити",
           "ru": "платить, вознаграждать, отомстить"
@@ -5511,7 +2924,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v2 = v3",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "plead",
           "transcription": "plid / pled"
@@ -5524,10 +2937,6 @@ export const irregularVerbs =
           "word": "pleaded / pled",
           "transcription": "plid / pled"
         },
-        "name": [
-          "plead",
-          "plid / pled"
-        ],
         "translations": {
           "ua": "захищати підсудного, ходатайствувати, прощати",
           "ru": "защищать подсудимого, ходатайствовать, простить"
@@ -5538,169 +2947,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "prebuild",
-          "transcription": "ˌpriːˈbɪld"
-        },
-        "pastSimple": {
-          "word": "prebuilt",
-          "transcription": "ˌpriːˈbɪlt"
-        },
-        "pastParticiple": {
-          "word": "prebuilt",
-          "transcription": "ˌpriːˈbɪlt"
-        },
-        "name": [
-          "prebuild",
-          "ˌpriːˈbɪld"
-        ],
-        "translations": {
-          "ua": "попередньо зібрати, побудувати",
-          "ru": "предварительно собрать, выстроить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "predo",
-          "transcription": "priːˈduː"
-        },
-        "pastSimple": {
-          "word": "predid",
-          "transcription": "priːˈdɪd"
-        },
-        "pastParticiple": {
-          "word": "predone",
-          "transcription": "priːˈdʌn"
-        },
-        "name": [
-          "predo",
-          "priːˈduː"
-        ],
-        "translations": {
-          "ua": "зробити напередодні, підготувати",
-          "ru": "сделать заранее, подготовить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "premake",
-          "transcription": "ˌpriːˈmeɪk"
-        },
-        "pastSimple": {
-          "word": "premade",
-          "transcription": "ˌpriːˈmeɪd"
-        },
-        "pastParticiple": {
-          "word": "premade",
-          "transcription": "ˌpriːˈmeɪd"
-        },
-        "name": [
-          "premake",
-          "ˌpriːˈmeɪk"
-        ],
-        "translations": {
-          "ua": "підготувати, зробити наперед",
-          "ru": "подготовить, сделать наперед"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "prepay",
-          "transcription": "priːˈpeɪ"
-        },
-        "pastSimple": {
-          "word": "prepaid",
-          "transcription": "priːˈpeɪd"
-        },
-        "pastParticiple": {
-          "word": "prepaid",
-          "transcription": "priːˈpeɪd"
-        },
-        "name": [
-          "prepay",
-          "priːˈpeɪ"
-        ],
-        "translations": {
-          "ua": "передоплачувати, платити наперед",
-          "ru": "предоплачивать, платить наперед"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "presell",
-          "transcription": "priːˈsɛl"
-        },
-        "pastSimple": {
-          "word": "presold",
-          "transcription": "priːˈsoʊld"
-        },
-        "pastParticiple": {
-          "word": "prespreset",
-          "transcription": "priːˈspresət"
-        },
-        "name": [
-          "presell",
-          "priːˈsɛl"
-        ],
-        "translations": {
-          "ua": "рекламувати товар, організовувати передпродаж, продавати наперед",
-          "ru": "рекламировать товар, организовать предпродажу, продавать наперед"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "preshrink",
-          "transcription": "ˌpriːˈʃrɪŋk"
-        },
-        "pastSimple": {
-          "word": "preshrank",
-          "transcription": "ˌpriːˈʃræŋk"
-        },
-        "pastParticiple": {
-          "word": "preshrunk",
-          "transcription": "ˌpriːˈʃrʌŋk"
-        },
-        "name": [
-          "preshrink",
-          "ˌpriːˈʃrɪŋk"
-        ],
-        "translations": {
-          "ua": "обробляти тканину для запобігання її стягання",
-          "ru": "обрабатывать ткань для предотвращения ее стяжки"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "proofread",
           "transcription": "ˌpruːfˈriːd"
@@ -5713,10 +2960,6 @@ export const irregularVerbs =
           "word": "proofread",
           "transcription": "ˌpruːfˈrɛd"
         },
-        "name": [
-          "proofread",
-          "ˌpruːfˈriːd"
-        ],
         "translations": {
           "ua": "читати коректуру, коригувати, виправляти",
           "ru": "читать корректуру, корректировать, вычитывать"
@@ -5727,7 +2970,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "prove",
           "transcription": "pruːv"
@@ -5740,10 +2983,6 @@ export const irregularVerbs =
           "word": "proven / proved",
           "transcription": "ˌproʊvən / pruːvd"
         },
-        "name": [
-          "prove",
-          "pruːv"
-        ],
         "translations": {
           "ua": "доводити, засвідчувати",
           "ru": "доказывать, удостоверять"
@@ -5754,7 +2993,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "put",
           "transcription": "pʊt"
@@ -5767,10 +3006,6 @@ export const irregularVerbs =
           "word": "put",
           "transcription": "pʊt"
         },
-        "name": [
-          "put",
-          "pʊt"
-        ],
         "translations": {
           "ua": "класти, покласти",
           "ru": "класть, положить"
@@ -5781,7 +3016,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "quick-freeze",
           "transcription": "kwɪk-friːz"
@@ -5794,10 +3029,6 @@ export const irregularVerbs =
           "word": "quick-frozen",
           "transcription": "kwɪk-froʊzən"
         },
-        "name": [
-          "quick-freeze",
-          "kwɪk-friːz"
-        ],
         "translations": {
           "ua": "швидко заморожувати, замерзати",
           "ru": "быстро замораживать, замерзать"
@@ -5808,7 +3039,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "quit",
           "transcription": "kwɪt"
@@ -5821,10 +3052,6 @@ export const irregularVerbs =
           "word": "quit / quitted",
           "transcription": "kwɪt / ˈkwɪtɪd"
         },
-        "name": [
-          "quit",
-          "kwɪt"
-        ],
         "translations": {
           "ua": "залишати, покидати, виходити",
           "ru": "оставлять, покидать, выходить"
@@ -5835,7 +3062,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "read",
           "transcription": "riːd"
@@ -5848,526 +3075,9 @@ export const irregularVerbs =
           "word": "read",
           "transcription": "rɛd"
         },
-        "name": [
-          "read",
-          "riːd"
-        ],
         "translations": {
           "ua": "читати",
           "ru": "читать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "reawake",
-          "transcription": "riːəˈweɪk"
-        },
-        "pastSimple": {
-          "word": "reawoke",
-          "transcription": "riːəˈwoʊk"
-        },
-        "pastParticiple": {
-          "word": "reawaken",
-          "transcription": "riːəˈweɪkən"
-        },
-        "name": [
-          "reawake",
-          "riːəˈweɪk"
-        ],
-        "translations": {
-          "ua": "снова пробуджувати",
-          "ru": "снова пробуждать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "rebid",
-          "transcription": "riːˈbɪd"
-        },
-        "pastSimple": {
-          "word": "rebid",
-          "transcription": "riːˈbɪd"
-        },
-        "pastParticiple": {
-          "word": "rebid",
-          "transcription": "riːˈbɪd"
-        },
-        "name": [
-          "rebid",
-          "riːˈbɪd"
-        ],
-        "translations": {
-          "ua": "робити повторну ставку",
-          "ru": "делать повторную ставку"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rebind",
-          "transcription": "riːˈbaɪnd"
-        },
-        "pastSimple": {
-          "word": "rebound",
-          "transcription": "riːˈbaʊnd"
-        },
-        "pastParticiple": {
-          "word": "rebound",
-          "transcription": "riːˈbaʊnd"
-        },
-        "name": [
-          "rebind",
-          "riːˈbaɪnd"
-        ],
-        "translations": {
-          "ua": "переплітати заново (книгу)",
-          "ru": "переплетать заново (книгу)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rebroadcast",
-          "transcription": "ˌriːˈbrɔːdkæst / ˈriːˌbrɔːdkɑːst"
-        },
-        "pastSimple": {
-          "word": "rebroadcast / rebroadcasted",
-          "transcription": "ˌriːˈbrɔːdkæst / ˈriːˌbrɔːdkɑːstɪd"
-        },
-        "pastParticiple": {
-          "word": "rebroadcast / rebroadcasted",
-          "transcription": "ˌriːˈbrɔːdkæst / ˈriːˌbrɔːdkɑːstɪd"
-        },
-        "name": [
-          "rebroadcast",
-          "ˌriːˈbrɔːdkæst / ˈriːˌbrɔːdkɑːst"
-        ],
-        "translations": {
-          "ua": "ретранслювати, показувати (передачу) заново",
-          "ru": "ретранслировать, показывать (передачу) заново"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rebuild",
-          "transcription": "riːˈbɪld"
-        },
-        "pastSimple": {
-          "word": "rebuilt",
-          "transcription": "riːˈbɪlt"
-        },
-        "pastParticiple": {
-          "word": "rebuilt",
-          "transcription": "riːˈbɪlt"
-        },
-        "name": [
-          "rebuild",
-          "riːˈbɪld"
-        ],
-        "translations": {
-          "ua": "перебудовувати",
-          "ru": "перестраивать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "recast",
-          "transcription": "riːˈkæst"
-        },
-        "pastSimple": {
-          "word": "recast",
-          "transcription": "riːˈkæst"
-        },
-        "pastParticiple": {
-          "word": "recast",
-          "transcription": "riːˈkæst"
-        },
-        "name": [
-          "recast",
-          "riːˈkæst"
-        ],
-        "translations": {
-          "ua": "переделувати, змінювати, перераховувати",
-          "ru": "переделывать, изменять, пересчитывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "recut",
-          "transcription": "riːˈkʌt"
-        },
-        "pastSimple": {
-          "word": "recut",
-          "transcription": "riːˈkʌt"
-        },
-        "pastParticiple": {
-          "word": "recut",
-          "transcription": "riːˈkʌt"
-        },
-        "name": [
-          "recut",
-          "riːˈkʌt"
-        ],
-        "translations": {
-          "ua": "вторично нарізати, повторно вирізати (сцени з фільму)",
-          "ru": "вторично нарезать, повторно вырезать (сцены из фильма)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "redo",
-          "transcription": "riːˈduː"
-        },
-        "pastSimple": {
-          "word": "redid",
-          "transcription": "rɪˈdɪd"
-        },
-        "pastParticiple": {
-          "word": "redone",
-          "transcription": "riːˈdʌn"
-        },
-        "name": [
-          "redo",
-          "riːˈduː"
-        ],
-        "translations": {
-          "ua": "переделувати, робити ремонт",
-          "ru": "переделывать, делать ремонт"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "redraw",
-          "transcription": "riːˈdrɔː"
-        },
-        "pastSimple": {
-          "word": "redrew",
-          "transcription": "rɪˈdruː"
-        },
-        "pastParticiple": {
-          "word": "redrawn",
-          "transcription": "rɪˈdrɔːn"
-        },
-        "name": [
-          "redraw",
-          "riːˈdrɔː"
-        ],
-        "translations": {
-          "ua": "перерисовувати, оновлювати малюнок, виставляти обертаний вексель",
-          "ru": "перерисовывать, обновлять рисунок, выставлять обратный вексель"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "refit",
-          "transcription": "riːˈfɪt"
-        },
-        "pastSimple": {
-          "word": "refitted / refit",
-          "transcription": "ˌriːˈfɪtɪd / ˈriːˌfɪt"
-        },
-        "pastParticiple": {
-          "word": "refitted / refit",
-          "transcription": "ˌriːˈfɪtɪd / ˈriːˌfɪt"
-        },
-        "name": [
-          "refit",
-          "riːˈfɪt"
-        ],
-        "translations": {
-          "ua": "перекраювати, підганяти заново (за розміром)",
-          "ru": "перекраивать, подгонять заново (по размеру)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "regrind",
-          "transcription": "riːˈɡraɪnd"
-        },
-        "pastSimple": {
-          "word": "reground",
-          "transcription": "ˌriːˈɡraʊnd"
-        },
-        "pastParticiple": {
-          "word": "reground",
-          "transcription": "ˌriːˈɡraʊnd"
-        },
-        "name": [
-          "regrind",
-          "riːˈɡraɪnd"
-        ],
-        "translations": {
-          "ua": "перешліфовувати, перетачувати, притирати",
-          "ru": "перешлифовывать, перетачивать, притирать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "regrow",
-          "transcription": "riːˈɡroʊ"
-        },
-        "pastSimple": {
-          "word": "regrew",
-          "transcription": "ˌriːˈɡruː"
-        },
-        "pastParticiple": {
-          "word": "regrown",
-          "transcription": "ˌriːˈɡroʊn"
-        },
-        "name": [
-          "regrow",
-          "riːˈɡroʊ"
-        ],
-        "translations": {
-          "ua": "отрастати снова",
-          "ru": "отрастать снова"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rehang",
-          "transcription": "riːˈhæŋ"
-        },
-        "pastSimple": {
-          "word": "rehung",
-          "transcription": "ˌriːˈhʌŋ"
-        },
-        "pastParticiple": {
-          "word": "rehung",
-          "transcription": "ˌriːˈhʌŋ"
-        },
-        "name": [
-          "rehang",
-          "riːˈhæŋ"
-        ],
-        "translations": {
-          "ua": "перевішувати",
-          "ru": "перевешивать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rehear",
-          "transcription": "rɪˈhɪr"
-        },
-        "pastSimple": {
-          "word": "reheard",
-          "transcription": "rɪˈhɜːrd"
-        },
-        "pastParticiple": {
-          "word": "reheard",
-          "transcription": "rɪˈhɜːrd"
-        },
-        "name": [
-          "rehear",
-          "rɪˈhɪr"
-        ],
-        "translations": {
-          "ua": "услухати снова, розглядати справу повторно",
-          "ru": "услышать снова, рассматривать дело повторно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "reknit",
-          "transcription": "riːˈnɪt"
-        },
-        "pastSimple": {
-          "word": "reknitted / reknit",
-          "transcription": "ˌriːˈnɪtɪd / ˈriːˌnɪt"
-        },
-        "pastParticiple": {
-          "word": "reknitted / reknit",
-          "transcription": "ˌriːˈnɪtɪd / ˈriːˌnɪt"
-        },
-        "name": [
-          "reknit",
-          "riːˈnɪt"
-        ],
-        "translations": {
-          "ua": "в'язати заново, з'єднувати заново",
-          "ru": "вязать заново, соединять заново"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "relay",
-          "transcription": "ˈriːleɪ"
-        },
-        "pastSimple": {
-          "word": "relaid",
-          "transcription": "rɪˈleɪd"
-        },
-        "pastParticiple": {
-          "word": "relaid",
-          "transcription": "rɪˈleɪd"
-        },
-        "name": [
-          "relay",
-          "ˈriːleɪ"
-        ],
-        "translations": {
-          "ua": "класти заново, замінювати (черепицю, плитку)",
-          "ru": "класть заново, заменять (черепицу, плитку)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "relearn",
-          "transcription": "riːˈlɜːrn"
-        },
-        "pastSimple": {
-          "word": "relearned / relearnt",
-          "transcription": "ˌriːˈlɜːrnd / rɪˈlɜːrnt"
-        },
-        "pastParticiple": {
-          "word": "relearned / relearnt",
-          "transcription": "ˌriːˈlɜːrnd / rɪˈlɜːrnt"
-        },
-        "name": [
-          "relearn",
-          "riːˈlɜːrn"
-        ],
-        "translations": {
-          "ua": "учитися заново, переучуватися",
-          "ru": "учиться заново, переучиваться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "relight",
-          "transcription": "riːˈlaɪt"
-        },
-        "pastSimple": {
-          "word": "relit / relighted",
-          "transcription": "rɪˈlɪt / ˈriːˌlaɪtɪd"
-        },
-        "pastParticiple": {
-          "word": "relit / relighted",
-          "transcription": "rɪˈlɪt / ˈriːˌlaɪtɪd"
-        },
-        "name": [
-          "relight",
-          "riːˈlaɪt"
-        ],
-        "translations": {
-          "ua": "займати, займати знову, запалювати",
-          "ru": "зажигать, зажигаться снова, загораться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "remake",
-          "transcription": "riːˈmeɪk"
-        },
-        "pastSimple": {
-          "word": "remade",
-          "transcription": "ˌriːˈmeɪd"
-        },
-        "pastParticiple": {
-          "word": "remade",
-          "transcription": "ˌriːˈmeɪd"
-        },
-        "name": [
-          "remake",
-          "riːˈmeɪk"
-        ],
-        "translations": {
-          "ua": "переделувати, робити заново",
-          "ru": "переделывать, делать заново"
         },
         "image": {
           "url": ""
@@ -6388,10 +3098,6 @@ export const irregularVerbs =
           "word": "rent / rended",
           "transcription": "rɛnt / rɛndɪd"
         },
-        "name": [
-          "rend",
-          "rɛnd"
-        ],
         "translations": {
           "ua": "виривати, розривати, дробити, розщеплювати",
           "ru": "отрывать, раздирать, дробить, расщеплять"
@@ -6402,358 +3108,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "repay",
-          "transcription": "rɪˈpeɪ"
-        },
-        "pastSimple": {
-          "word": "repaid",
-          "transcription": "rɪˈpeɪd"
-        },
-        "pastParticiple": {
-          "word": "repaid",
-          "transcription": "rɪˈpeɪd"
-        },
-        "name": [
-          "repay",
-          "rɪˈpeɪ"
-        ],
-        "translations": {
-          "ua": "віддавати, повертати, відшкодовувати, відплачувати",
-          "ru": "отдавать, возвращать, возмещать, отплачивать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "reread",
-          "transcription": "riːˈriːd"
-        },
-        "pastSimple": {
-          "word": "reread",
-          "transcription": "riːˈrɛd"
-        },
-        "pastParticiple": {
-          "word": "reread",
-          "transcription": "riːˈrɛd"
-        },
-        "name": [
-          "reread",
-          "riːˈriːd"
-        ],
-        "translations": {
-          "ua": "перечитувати",
-          "ru": "перечитывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "rerun",
-          "transcription": "riːˈrʌn"
-        },
-        "pastSimple": {
-          "word": "reran",
-          "transcription": "riːˈræn"
-        },
-        "pastParticiple": {
-          "word": "rerun",
-          "transcription": "riːˈrʌn"
-        },
-        "name": [
-          "rerun",
-          "riːˈrʌn"
-        ],
-        "translations": {
-          "ua": "перезапускати, повторно проводити, показувати",
-          "ru": "перезапускать, повторно проводить, показывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "resell",
-          "transcription": "riːˈsɛl"
-        },
-        "pastSimple": {
-          "word": "resold",
-          "transcription": "riːˈsoʊld"
-        },
-        "pastParticiple": {
-          "word": "resold",
-          "transcription": "riːˈsoʊld"
-        },
-        "name": [
-          "resell",
-          "riːˈsɛl"
-        ],
-        "translations": {
-          "ua": "перепродавати",
-          "ru": "перепродавать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "resend",
-          "transcription": "riːˈsɛnd"
-        },
-        "pastSimple": {
-          "word": "resent",
-          "transcription": "rɪˈzɛnt"
-        },
-        "pastParticiple": {
-          "word": "resent",
-          "transcription": "rɪˈzɛnt"
-        },
-        "name": [
-          "resend",
-          "riːˈsɛnd"
-        ],
-        "translations": {
-          "ua": "пере відправляти, посилати знову",
-          "ru": "переотправлять, посылать заново"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "reset",
-          "transcription": "riːˈsɛt"
-        },
-        "pastSimple": {
-          "word": "reset",
-          "transcription": "riːˈsɛt"
-        },
-        "pastParticiple": {
-          "word": "reset",
-          "transcription": "riːˈsɛt"
-        },
-        "name": [
-          "reset",
-          "riːˈsɛt"
-        ],
-        "translations": {
-          "ua": "повторно включати, встановлювати, скидати",
-          "ru": "повторно включать, устанавливать, сбрасывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "resew",
-          "transcription": "riːˈsoʊ"
-        },
-        "pastSimple": {
-          "word": "resewed",
-          "transcription": "riːˈsoʊd"
-        },
-        "pastParticiple": {
-          "word": "resewn / resewed",
-          "transcription": "riːˈsoʊn / riːˈsoʊd"
-        },
-        "name": [
-          "resew",
-          "riːˈsoʊ"
-        ],
-        "translations": {
-          "ua": "пришивати заново, перешивати",
-          "ru": "пришивать заново, перешивать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "retake",
-          "transcription": "riːˈteɪk"
-        },
-        "pastSimple": {
-          "word": "retook",
-          "transcription": "riːˈtʊk"
-        },
-        "pastParticiple": {
-          "word": "retaken",
-          "transcription": "rɪˈteɪkən"
-        },
-        "name": [
-          "retake",
-          "riːˈteɪk"
-        ],
-        "translations": {
-          "ua": "снова брати, переснимати, пересдавати (екзамен)",
-          "ru": "снова брать, переснимать, пересдавать (экзамен)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "reteach",
-          "transcription": "riːˈtiːʧ"
-        },
-        "pastSimple": {
-          "word": "retaught",
-          "transcription": "riːˈtɔːt"
-        },
-        "pastParticiple": {
-          "word": "retaught",
-          "transcription": "riːˈtɔːt"
-        },
-        "name": [
-          "reteach",
-          "riːˈtiːʧ"
-        ],
-        "translations": {
-          "ua": "пере навчати, навчати заново",
-          "ru": "переучивать, учить заново"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "retear",
-          "transcription": "riːˈtɪər"
-        },
-        "pastSimple": {
-          "word": "retore",
-          "transcription": "rɪˈtɔːr"
-        },
-        "pastParticiple": {
-          "word": "retorn",
-          "transcription": "rɪˈtɔːrn"
-        },
-        "name": [
-          "retear",
-          "riːˈtɪər"
-        ],
-        "translations": {
-          "ua": "снова розривати, виривати",
-          "ru": "снова разрывать, отрывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "retell",
-          "transcription": "riːˈtɛl"
-        },
-        "pastSimple": {
-          "word": "retold",
-          "transcription": "riːˈtoʊld"
-        },
-        "pastParticiple": {
-          "word": "retold",
-          "transcription": "riːˈtoʊld"
-        },
-        "name": [
-          "retell",
-          "riːˈtɛl"
-        ],
-        "translations": {
-          "ua": "пересповідувати, розповідати заново",
-          "ru": "пересказывать, рассказывать снова"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rethink",
-          "transcription": "riːˈθɪŋk"
-        },
-        "pastSimple": {
-          "word": "rethought",
-          "transcription": "riːˈθɔːt"
-        },
-        "pastParticiple": {
-          "word": "rethought",
-          "transcription": "riːˈθɔːt"
-        },
-        "name": [
-          "rethink",
-          "riːˈθɪŋk"
-        ],
-        "translations": {
-          "ua": "пересмільчувати, заново осмислювати",
-          "ru": "пересматривать, заново осмыслить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "retread",
-          "transcription": "riːˈtrɛd"
-        },
-        "pastSimple": {
-          "word": "retread",
-          "transcription": "riːˈtrɛd"
-        },
-        "pastParticiple": {
-          "word": "retread",
-          "transcription": "riːˈtrɛd"
-        },
-        "name": [
-          "retread",
-          "riːˈtrɛd"
-        ],
-        "translations": {
-          "ua": "замінювати шину, переосвітлювати, заново даавти роботу",
-          "ru": "сменить покрышку, переобучать, заново давать работу"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "retrofit",
           "transcription": "ˈrɛtroʊfɪt"
@@ -6766,10 +3121,6 @@ export const irregularVerbs =
           "word": "retrofitted / retrofit",
           "transcription": "ˈrɛtroʊˌfɪtɪd / ˌrɛtroʊˈfɪt"
         },
-        "name": [
-          "retrofit",
-          "ˈrɛtroʊfɪt"
-        ],
         "translations": {
           "ua": "модифікувати, підганяти, налаштовувати",
           "ru": "модифицировать, подгонять, настраивать"
@@ -6780,223 +3131,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
-        "infinitive": {
-          "word": "rewake",
-          "transcription": "riːˈweɪk"
-        },
-        "pastSimple": {
-          "word": "rewoke / rewaked",
-          "transcription": "ˌriːˈwoʊk / ˌriːˈweɪkt"
-        },
-        "pastParticiple": {
-          "word": "rewaken / rewaked",
-          "transcription": "ˌriːˈweɪkən / ˌriːˈweɪkt"
-        },
-        "name": [
-          "rewake",
-          "riːˈweɪk"
-        ],
-        "translations": {
-          "ua": "будити, пробуджуватися заново",
-          "ru": "будить, пробуждаться заново"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "rewear",
-          "transcription": "riːˈwɛər"
-        },
-        "pastSimple": {
-          "word": "rewore",
-          "transcription": "ˌriːˈwɔːr"
-        },
-        "pastParticiple": {
-          "word": "reworn",
-          "transcription": "riːˈwɔrn"
-        },
-        "name": [
-          "rewear",
-          "riːˈwɛər"
-        ],
-        "translations": {
-          "ua": "носити заново",
-          "ru": "носить наново"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "reweave",
-          "transcription": "riːˈwiːv"
-        },
-        "pastSimple": {
-          "word": "rewove / reweaved",
-          "transcription": "riːˈwoʊv / riːˈweɪvd"
-        },
-        "pastParticiple": {
-          "word": "rewoven / reweaved",
-          "transcription": "riːˈwoʊvən / riːˈweɪvd"
-        },
-        "name": [
-          "reweave",
-          "riːˈwiːv"
-        ],
-        "translations": {
-          "ua": "переткати, плести, ткати заново, знову з'єднуватися",
-          "ru": "переткать, плести, ткать заново, снова соединяться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rewed",
-          "transcription": "riːd"
-        },
-        "pastSimple": {
-          "word": "rewed / rewedded",
-          "transcription": "riːd / ˌriːˈwɛdɪd"
-        },
-        "pastParticiple": {
-          "word": "rewed / rewedded",
-          "transcription": "riːd / ˌriːˈwɛdɪd"
-        },
-        "name": [
-          "rewed",
-          "riːd"
-        ],
-        "translations": {
-          "ua": "женитися вдруге",
-          "ru": "жениться во второй раз"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rewet",
-          "transcription": "riːˈwɛt"
-        },
-        "pastSimple": {
-          "word": "rewet / rewetted",
-          "transcription": "ˌriːˈwɛt / ˌriːˈwɛtɪd"
-        },
-        "pastParticiple": {
-          "word": "rewet / rewetted",
-          "transcription": "ˌriːˈwɛt / ˌriːˈwɛtɪd"
-        },
-        "name": [
-          "rewet",
-          "riːˈwɛt"
-        ],
-        "translations": {
-          "ua": "повторно зволожувати, вологити знову",
-          "ru": "повторно увлажнять, мочить снова"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rewin",
-          "transcription": "riːˈwɪn"
-        },
-        "pastSimple": {
-          "word": "rewon",
-          "transcription": "riːˈwʌn"
-        },
-        "pastParticiple": {
-          "word": "rewon",
-          "transcription": "riːˈwʌn"
-        },
-        "name": [
-          "rewin",
-          "riːˈwɪn"
-        ],
-        "translations": {
-          "ua": "знову перемагати, перемогти після програшу",
-          "ru": "снова побеждать, победить после проигрыша"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "rare"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "rewind",
-          "transcription": "riːˈwaɪnd"
-        },
-        "pastSimple": {
-          "word": "rewound",
-          "transcription": "riːˈwaʊnd"
-        },
-        "pastParticiple": {
-          "word": "rewound",
-          "transcription": "riːˈwaʊnd"
-        },
-        "name": [
-          "rewind",
-          "riːˈwaɪnd"
-        ],
-        "translations": {
-          "ua": "перемотувати (назад)",
-          "ru": "перематывать (назад)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "rewrite",
-          "transcription": "riːˈraɪt"
-        },
-        "pastSimple": {
-          "word": "rewrote",
-          "transcription": "riːˈroʊt"
-        },
-        "pastParticiple": {
-          "word": "rewritten",
-          "transcription": "riːˈrɪtən"
-        },
-        "name": [
-          "rewrite",
-          "riːˈraɪt"
-        ],
-        "translations": {
-          "ua": "переписувати, редагувати, відповідати письмово",
-          "ru": "переписывать, редактировать, отвечать письменно"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "rid",
           "transcription": "rɪd"
@@ -7009,10 +3144,6 @@ export const irregularVerbs =
           "word": "rid",
           "transcription": "rɪd"
         },
-        "name": [
-          "rid",
-          "rɪd"
-        ],
         "translations": {
           "ua": "визволяти, позбавляти",
           "ru": "освобождать, избавлять"
@@ -7023,7 +3154,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "ride",
           "transcription": "raɪd"
@@ -7036,10 +3167,6 @@ export const irregularVerbs =
           "word": "ridden",
           "transcription": "ˈrɪdən"
         },
-        "name": [
-          "ride",
-          "raɪd"
-        ],
         "translations": {
           "ua": "їхати верхом, кататися, їхати (в транспорті)",
           "ru": "ехать верхом, кататься, ехать (в транспорте)"
@@ -7050,7 +3177,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "ring",
           "transcription": "rɪŋ"
@@ -7063,10 +3190,6 @@ export const irregularVerbs =
           "word": "rung",
           "transcription": "rʌŋ"
         },
-        "name": [
-          "ring",
-          "rɪŋ"
-        ],
         "translations": {
           "ua": "дзвонити, дзвеніти",
           "ru": "звонить, звенеть"
@@ -7077,7 +3200,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "rise",
           "transcription": "raɪz"
@@ -7090,10 +3213,6 @@ export const irregularVerbs =
           "word": "risen",
           "transcription": "ˈrɪzən"
         },
-        "name": [
-          "rise",
-          "raɪz"
-        ],
         "translations": {
           "ua": "підніматися, сходити",
           "ru": "подниматься, восходить"
@@ -7104,7 +3223,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "roughcast",
           "transcription": "ˈrʌkæst"
@@ -7117,10 +3236,6 @@ export const irregularVerbs =
           "word": "roughcast",
           "transcription": "ˈrʌkæst"
         },
-        "name": [
-          "roughcast",
-          "ˈrʌkæst"
-        ],
         "translations": {
           "ua": "накидати план, намічати, грубо штукатурити",
           "ru": "набрасывать план, намечать, грубо штукатурить"
@@ -7131,7 +3246,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "v1 = v3",
         "infinitive": {
           "word": "run",
           "transcription": "rʌn"
@@ -7144,10 +3259,6 @@ export const irregularVerbs =
           "word": "run",
           "transcription": "rʌn"
         },
-        "name": [
-          "run",
-          "rʌn"
-        ],
         "translations": {
           "ua": "бігти, гнати, керувати, тікати",
           "ru": "бежать, гнать, управлять, течь"
@@ -7158,7 +3269,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "sand-cast",
           "transcription": "ˈsænd ˌkæst"
@@ -7171,10 +3282,6 @@ export const irregularVerbs =
           "word": "sand-cast",
           "transcription": "ˈsænd ˌkæst"
         },
-        "name": [
-          "sand-cast",
-          "ˈsænd ˌkæst"
-        ],
         "translations": {
           "ua": "отливати метал у пісчану форму",
           "ru": "отливать металл в песчаную форму"
@@ -7185,7 +3292,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "saw",
           "transcription": "sɔ"
@@ -7198,10 +3305,6 @@ export const irregularVerbs =
           "word": "sawed / sawn",
           "transcription": "sɔd / sɔn"
         },
-        "name": [
-          "saw",
-          "sɔ"
-        ],
         "translations": {
           "ua": "пилити, розпилити",
           "ru": "пилить, распилить"
@@ -7225,10 +3328,6 @@ export const irregularVerbs =
           "word": "said",
           "transcription": "sɛd"
         },
-        "name": [
-          "say",
-          "seɪ"
-        ],
         "translations": {
           "ua": "говорити, сказати",
           "ru": "говорить, сказать"
@@ -7239,7 +3338,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "see",
           "transcription": "si"
@@ -7252,10 +3351,6 @@ export const irregularVerbs =
           "word": "seen",
           "transcription": "siːn"
         },
-        "name": [
-          "see",
-          "si"
-        ],
         "translations": {
           "ua": "бачити, дивитися",
           "ru": "видеть, смотреть"
@@ -7279,10 +3374,6 @@ export const irregularVerbs =
           "word": "sought",
           "transcription": "sɔt"
         },
-        "name": [
-          "seek",
-          "siːk"
-        ],
         "translations": {
           "ua": "шукати, домагатися",
           "ru": "искать, добиваться"
@@ -7306,10 +3397,6 @@ export const irregularVerbs =
           "word": "sold",
           "transcription": "soʊld"
         },
-        "name": [
-          "sell",
-          "sɛl"
-        ],
         "translations": {
           "ua": "продавати",
           "ru": "продавать"
@@ -7333,10 +3420,6 @@ export const irregularVerbs =
           "word": "sent",
           "transcription": "sɛnt"
         },
-        "name": [
-          "send",
-          "sɛnd"
-        ],
         "translations": {
           "ua": "посилати, відправляти",
           "ru": "посылать, отправлять"
@@ -7347,7 +3430,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "set",
           "transcription": "sɛt"
@@ -7360,10 +3443,6 @@ export const irregularVerbs =
           "word": "set",
           "transcription": "sɛt"
         },
-        "name": [
-          "set",
-          "sɛt"
-        ],
         "translations": {
           "ua": "розміщати, ставити",
           "ru": "помещать, ставить"
@@ -7374,7 +3453,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "sew",
           "transcription": "soʊ"
@@ -7387,10 +3466,6 @@ export const irregularVerbs =
           "word": "sewn / sewed",
           "transcription": "soʊn / soʊd"
         },
-        "name": [
-          "sew",
-          "soʊ"
-        ],
         "translations": {
           "ua": "шити, штопати",
           "ru": "шить, штопать"
@@ -7401,7 +3476,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "shake",
           "transcription": "ʃeɪk"
@@ -7414,10 +3489,6 @@ export const irregularVerbs =
           "word": "shaken",
           "transcription": "ˈʃeɪkən"
         },
-        "name": [
-          "shake",
-          "ʃeɪk"
-        ],
         "translations": {
           "ua": "трясти, встряхувати",
           "ru": "трясти, встряхивать"
@@ -7428,7 +3499,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "shave",
           "transcription": "ʃeɪv"
@@ -7441,10 +3512,6 @@ export const irregularVerbs =
           "word": "shaved / shaven",
           "transcription": "ʃeɪvd / ˈʃeɪvən"
         },
-        "name": [
-          "shave",
-          "ʃeɪv"
-        ],
         "translations": {
           "ua": "бритися",
           "ru": "бриться"
@@ -7455,7 +3522,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "shear",
           "transcription": "ʃɪr"
@@ -7468,10 +3535,6 @@ export const irregularVerbs =
           "word": "sheared / shorn",
           "transcription": "ʃɪrd / ʃɔrn"
         },
-        "name": [
-          "shear",
-          "ʃɪr"
-        ],
         "translations": {
           "ua": "різати, вистригати, розсікати",
           "ru": "резать, выстригать, рассекать"
@@ -7482,7 +3545,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "shed",
           "transcription": "ʃɛd"
@@ -7495,10 +3558,6 @@ export const irregularVerbs =
           "word": "shed",
           "transcription": "ʃɛd"
         },
-        "name": [
-          "shed",
-          "ʃɛd"
-        ],
         "translations": {
           "ua": "проливати, терять, скидати",
           "ru": "проливать, терять, сбрасывать"
@@ -7522,10 +3581,6 @@ export const irregularVerbs =
           "word": "shined / shone",
           "transcription": "ʃaɪnd / ʃɒn"
         },
-        "name": [
-          "shine",
-          "ʃaɪn"
-        ],
         "translations": {
           "ua": "сіяти, світити",
           "ru": "сиять, светить"
@@ -7536,7 +3591,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "shit",
           "transcription": "ʃɪt"
@@ -7549,10 +3604,6 @@ export const irregularVerbs =
           "word": "shit/ shat / shitted",
           "transcription": "ʃɪt / ʃæt / ʃɪtɪd"
         },
-        "name": [
-          "shit",
-          "ʃɪt"
-        ],
         "translations": {
           "ua": "какати, гадити, срати",
           "ru": "какать, гадить, срать"
@@ -7576,10 +3627,6 @@ export const irregularVerbs =
           "word": "shod",
           "transcription": "ʃɒd"
         },
-        "name": [
-          "shoe",
-          "ʃuː"
-        ],
         "translations": {
           "ua": "обувати, подковувати, підбивати",
           "ru": "обувать, подковывать, подбивать"
@@ -7603,10 +3650,6 @@ export const irregularVerbs =
           "word": "shot",
           "transcription": "ʃɒt"
         },
-        "name": [
-          "shoot",
-          "ʃuːt"
-        ],
         "translations": {
           "ua": "стріляти, полювати",
           "ru": "стрелять, охотиться"
@@ -7617,7 +3660,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "show",
           "transcription": "ʃoʊ"
@@ -7630,10 +3673,6 @@ export const irregularVerbs =
           "word": "shown / showed",
           "transcription": "ʃoʊn / ʃoʊd"
         },
-        "name": [
-          "show",
-          "ʃoʊ"
-        ],
         "translations": {
           "ua": "показувати, показуватися, виставляти напоказ",
           "ru": "показывать, показываться, выставлять напоказ"
@@ -7644,7 +3683,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "shrink",
           "transcription": "ʃrɪŋk"
@@ -7657,10 +3696,6 @@ export const irregularVerbs =
           "word": "shrunk / shrunken",
           "transcription": "ʃrʌŋk / ˈʃrʌŋkən"
         },
-        "name": [
-          "shrink",
-          "ʃrɪŋk"
-        ],
         "translations": {
           "ua": "зменшувати, зменшуватися, стискатися, давати усадку",
           "ru": "уменьшать, уменьшаться, сжиматься, давать усадку"
@@ -7671,7 +3706,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "shut",
           "transcription": "ʃʌt"
@@ -7684,10 +3719,6 @@ export const irregularVerbs =
           "word": "shut",
           "transcription": "ʃʌt"
         },
-        "name": [
-          "shut",
-          "ʃʌt"
-        ],
         "translations": {
           "ua": "закривати",
           "ru": "закрывать"
@@ -7698,7 +3729,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "sight-read",
           "transcription": "saɪt rɛd"
@@ -7711,10 +3742,6 @@ export const irregularVerbs =
           "word": "sight-read",
           "transcription": "saɪt rɛd"
         },
-        "name": [
-          "sight-read",
-          "saɪt rɛd"
-        ],
         "translations": {
           "ua": "грати, співати з листа, читати ноти, текст з листа",
           "ru": "играть, петь с листа, читать ноты, текст с листа"
@@ -7725,7 +3752,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "sing",
           "transcription": "sɪŋ"
@@ -7738,10 +3765,6 @@ export const irregularVerbs =
           "word": "sung",
           "transcription": "sʌŋ"
         },
-        "name": [
-          "sing",
-          "sɪŋ"
-        ],
         "translations": {
           "ua": "співати",
           "ru": "петь"
@@ -7752,7 +3775,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "sink",
           "transcription": "sɪŋk"
@@ -7765,10 +3788,6 @@ export const irregularVerbs =
           "word": "sunk",
           "transcription": "sʌŋk"
         },
-        "name": [
-          "sink",
-          "sɪŋk"
-        ],
         "translations": {
           "ua": "тонути, опускатися, поглиблюватися",
           "ru": "тонуть, опускаться, погружаться"
@@ -7792,10 +3811,6 @@ export const irregularVerbs =
           "word": "sat",
           "transcription": "sæt"
         },
-        "name": [
-          "sit",
-          "sɪt"
-        ],
         "translations": {
           "ua": "сидіти, саджати, знаходитися",
           "ru": "сидеть, сажать, находиться"
@@ -7806,7 +3821,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "slay",
           "transcription": "sleɪ"
@@ -7819,10 +3834,6 @@ export const irregularVerbs =
           "word": "slain / slayed",
           "transcription": "sleɪn / sleɪd"
         },
-        "name": [
-          "slay",
-          "sleɪ"
-        ],
         "translations": {
           "ua": "вбивати, знищувати",
           "ru": "убивать, уничтожать"
@@ -7846,10 +3857,6 @@ export const irregularVerbs =
           "word": "slept",
           "transcription": "slɛpt"
         },
-        "name": [
-          "sleep",
-          "sliːp"
-        ],
         "translations": {
           "ua": "спати",
           "ru": "спать"
@@ -7873,10 +3880,6 @@ export const irregularVerbs =
           "word": "slid",
           "transcription": "slɪd"
         },
-        "name": [
-          "slide",
-          "slaɪd"
-        ],
         "translations": {
           "ua": "ковзати, ползати, ковзати",
           "ru": "скользить, ползать, кататься"
@@ -7900,10 +3903,6 @@ export const irregularVerbs =
           "word": "slung",
           "transcription": "slʌŋ"
         },
-        "name": [
-          "sling",
-          "slɪŋ"
-        ],
         "translations": {
           "ua": "швиряти, вішати через плече, підвішувати",
           "ru": "швырять, вешать через плечо, подвешивать"
@@ -7927,10 +3926,6 @@ export const irregularVerbs =
           "word": "slinked / slunk",
           "transcription": "slɪŋkt / slʌŋk"
         },
-        "name": [
-          "slink",
-          "slɪŋk"
-        ],
         "translations": {
           "ua": "крадеться, підкрадатися, роджувати передчасно",
           "ru": "красться, подкрадываться, рожать преждевременно"
@@ -7941,7 +3936,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "slit",
           "transcription": "slɪt"
@@ -7954,10 +3949,6 @@ export const irregularVerbs =
           "word": "slit",
           "transcription": "slɪt"
         },
-        "name": [
-          "slit",
-          "slɪt"
-        ],
         "translations": {
           "ua": "різати, перерізати",
           "ru": "разрезать, перерезать"
@@ -7981,10 +3972,6 @@ export const irregularVerbs =
           "word": "smelled / smelt",
           "transcription": "smɛld / smɛlt"
         },
-        "name": [
-          "smell",
-          "smɛl"
-        ],
         "translations": {
           "ua": "пахнути, нюхати",
           "ru": "пахнуть, нюхать"
@@ -7995,7 +3982,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "smite",
           "transcription": "smaɪt"
@@ -8008,10 +3995,6 @@ export const irregularVerbs =
           "word": "smitten",
           "transcription": "ˈsmɪtən"
         },
-        "name": [
-          "smite",
-          "smaɪt"
-        ],
         "translations": {
           "ua": "поразити, бити, покарати",
           "ru": "поражать, бить, наказывать"
@@ -8035,10 +4018,6 @@ export const irregularVerbs =
           "word": "sneaked / snuck",
           "transcription": "sniːkt / snʌk"
         },
-        "name": [
-          "sneak",
-          "sniːk"
-        ],
         "translations": {
           "ua": "крадеться, підкрадатися, красти, уникати",
           "ru": "красться, подкрадываться, красть, ускользать"
@@ -8049,7 +4028,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "sow",
           "transcription": "soʊ"
@@ -8062,10 +4041,6 @@ export const irregularVerbs =
           "word": "sown / sowed",
           "transcription": "soʊn / soʊd"
         },
-        "name": [
-          "sow",
-          "soʊ"
-        ],
         "translations": {
           "ua": "сіяти, засівати, поширювати",
           "ru": "сеять, засевать, распространять"
@@ -8076,7 +4051,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "speak",
           "transcription": "spiːk"
@@ -8089,10 +4064,6 @@ export const irregularVerbs =
           "word": "spoken",
           "transcription": "ˈspoʊkən"
         },
-        "name": [
-          "speak",
-          "spiːk"
-        ],
         "translations": {
           "ua": "говорити",
           "ru": "говорить"
@@ -8116,10 +4087,6 @@ export const irregularVerbs =
           "word": "sped / speeded",
           "transcription": "spɛd / spiːdɪd"
         },
-        "name": [
-          "speed",
-          "spiːd"
-        ],
         "translations": {
           "ua": "спішити, прискорювати, торопити",
           "ru": "спешить, ускорять, торопить"
@@ -8143,10 +4110,6 @@ export const irregularVerbs =
           "word": "spelled / spelt",
           "transcription": "spɛld / spɛlt"
         },
-        "name": [
-          "spell",
-          "spɛl"
-        ],
         "translations": {
           "ua": "заклинати; змінювати, дати відпочинок; писати, вимовляти слово по буквах",
           "ru": "заклинать; менять, давать отдых; писать, произносить слово по буквам"
@@ -8170,10 +4133,6 @@ export const irregularVerbs =
           "word": "spent",
           "transcription": "spɛnt"
         },
-        "name": [
-          "spend",
-          "spɛnd"
-        ],
         "translations": {
           "ua": "тратити, виснажувати",
           "ru": "тратить, истощать"
@@ -8197,10 +4156,6 @@ export const irregularVerbs =
           "word": "spilled / spilt",
           "transcription": "spɪld / spɪlt"
         },
-        "name": [
-          "spill",
-          "spɪl"
-        ],
         "translations": {
           "ua": "проливати, розливатися",
           "ru": "проливать, разливаться"
@@ -8224,10 +4179,6 @@ export const irregularVerbs =
           "word": "spun",
           "transcription": "spʌn"
         },
-        "name": [
-          "spin",
-          "spɪn"
-        ],
         "translations": {
           "ua": "прясти, крутити, вертіти, плести",
           "ru": "прясть, крутить, вертеть, плести"
@@ -8238,7 +4189,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "spit",
           "transcription": "spɪt"
@@ -8251,10 +4202,6 @@ export const irregularVerbs =
           "word": "spit / spat",
           "transcription": "spɪt / spæt"
         },
-        "name": [
-          "spit",
-          "spɪt"
-        ],
         "translations": {
           "ua": "плювати, пронзати, натикати, моросити",
           "ru": "плевать, пронзать, натыкать, моросить"
@@ -8278,10 +4225,6 @@ export const irregularVerbs =
           "word": "spoiled / spoilt",
           "transcription": "spɔɪld / spɔɪlt"
         },
-        "name": [
-          "spoil",
-          "spɔɪl"
-        ],
         "translations": {
           "ua": "псувати, балувати",
           "ru": "портить, баловать"
@@ -8292,7 +4235,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "spread",
           "transcription": "sprɛd"
@@ -8305,10 +4248,6 @@ export const irregularVerbs =
           "word": "spread",
           "transcription": "sprɛd"
         },
-        "name": [
-          "spread",
-          "sprɛd"
-        ],
         "translations": {
           "ua": "розповсюджувати, розташовувати",
           "ru": "распространять, расставлять"
@@ -8319,7 +4258,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "spring",
           "transcription": "spræŋ"
@@ -8332,10 +4271,6 @@ export const irregularVerbs =
           "word": "sprung",
           "transcription": "sprʌŋ"
         },
-        "name": [
-          "spring",
-          "spræŋ"
-        ],
         "translations": {
           "ua": "пригавкати, стрибати",
           "ru": "прыгать, вскакивать"
@@ -8359,10 +4294,6 @@ export const irregularVerbs =
           "word": "stood",
           "transcription": "stʊd"
         },
-        "name": [
-          "stand",
-          "stænd"
-        ],
         "translations": {
           "ua": "стояти, бути розташованим",
           "ru": "стоять, быть расположенным"
@@ -8386,10 +4317,6 @@ export const irregularVerbs =
           "word": "staved / stove",
           "transcription": "steɪvd / stov"
         },
-        "name": [
-          "stave",
-          "steɪv"
-        ],
         "translations": {
           "ua": "ламати, розбивати",
           "ru": "проламывать, разбивать"
@@ -8400,7 +4327,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "steal",
           "transcription": "stil"
@@ -8413,10 +4340,6 @@ export const irregularVerbs =
           "word": "stolen",
           "transcription": "ˈstoʊlən"
         },
-        "name": [
-          "steal",
-          "stil"
-        ],
         "translations": {
           "ua": "красти, вкрадати",
           "ru": "воровать, красть"
@@ -8440,10 +4363,6 @@ export const irregularVerbs =
           "word": "stuck",
           "transcription": "stʌk"
         },
-        "name": [
-          "stick",
-          "stɪk"
-        ],
         "translations": {
           "ua": "вколювати, приклеювати",
           "ru": "втыкать, приклеивать"
@@ -8467,10 +4386,6 @@ export const irregularVerbs =
           "word": "stung",
           "transcription": "stʌŋ"
         },
-        "name": [
-          "sting",
-          "stɪŋ"
-        ],
         "translations": {
           "ua": "жалити, причиняти біль",
           "ru": "жалить, причинять боль"
@@ -8481,7 +4396,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "v2 = v3",
         "infinitive": {
           "word": "stink",
           "transcription": "stɪŋk"
@@ -8494,10 +4409,6 @@ export const irregularVerbs =
           "word": "stunk",
           "transcription": "stʌŋk"
         },
-        "name": [
-          "stink",
-          "stɪŋk"
-        ],
         "translations": {
           "ua": "пахнути, воняти",
           "ru": "вонять, пахнуть"
@@ -8508,7 +4419,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "strew",
           "transcription": "stru"
@@ -8521,10 +4432,6 @@ export const irregularVerbs =
           "word": "strewn / strewed",
           "transcription": "struːn / struːd"
         },
-        "name": [
-          "strew",
-          "stru"
-        ],
         "translations": {
           "ua": "розсипати, розкидати",
           "ru": "усеять, разбрасывать, посыпать"
@@ -8535,7 +4442,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "stride",
           "transcription": "straɪd"
@@ -8548,10 +4455,6 @@ export const irregularVerbs =
           "word": "stridden",
           "transcription": "ˈstrɪdən"
         },
-        "name": [
-          "stride",
-          "straɪd"
-        ],
         "translations": {
           "ua": "крокувати, їхати верхи",
           "ru": "шагать, сидеть верхом"
@@ -8562,7 +4465,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "v2 = v3",
         "infinitive": {
           "word": "strike",
           "transcription": "straɪk"
@@ -8575,10 +4478,6 @@ export const irregularVerbs =
           "word": "struck / stricken",
           "transcription": "strʌk / ˈstrɪkən"
         },
-        "name": [
-          "strike",
-          "straɪk"
-        ],
         "translations": {
           "ua": "ударяти, бастувати",
           "ru": "ударять, бастовать"
@@ -8602,10 +4501,6 @@ export const irregularVerbs =
           "word": "strung",
           "transcription": "strʌŋ"
         },
-        "name": [
-          "string",
-          "strɪŋ"
-        ],
         "translations": {
           "ua": "зв'язувати, натягувати, нанизувати",
           "ru": "связывать, натягивать, нанизывать"
@@ -8616,7 +4511,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "strive",
           "transcription": "straɪv"
@@ -8629,10 +4524,6 @@ export const irregularVerbs =
           "word": "striven / strived",
           "transcription": "ˈstrɪvən / straɪvd"
         },
-        "name": [
-          "strive",
-          "straɪv"
-        ],
         "translations": {
           "ua": "прагнути, намагатися",
           "ru": "стремиться, стараться, пытаться"
@@ -8643,7 +4534,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "sublet",
           "transcription": "ˌsʌbˈlet"
@@ -8656,10 +4547,6 @@ export const irregularVerbs =
           "word": "sublet",
           "transcription": "ˌsʌbˈlet"
         },
-        "name": [
-          "sublet",
-          "ˌsʌbˈlet"
-        ],
         "translations": {
           "ua": "здавати в піднайом",
           "ru": "сдавать в поднаем"
@@ -8683,10 +4570,6 @@ export const irregularVerbs =
           "word": "sunburned / sunburnt",
           "transcription": "ˈsʌnbɜrnd / sʌnˈbɜrnt"
         },
-        "name": [
-          "sunburn",
-          "ˈsʌnbɜrn"
-        ],
         "translations": {
           "ua": "обгоріти на сонці",
           "ru": "обгорать на солнце"
@@ -8697,7 +4580,7 @@ export const irregularVerbs =
         "frequencyOfUse": "rare"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "swear",
           "transcription": "swɛr"
@@ -8710,10 +4593,6 @@ export const irregularVerbs =
           "word": "sworn",
           "transcription": "swɔrn"
         },
-        "name": [
-          "swear",
-          "swɛr"
-        ],
         "translations": {
           "ua": "клястися, присягати, лаятися",
           "ru": "клясться, присягать, ругаться"
@@ -8724,7 +4603,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "sweat",
           "transcription": "swɛt"
@@ -8737,10 +4616,6 @@ export const irregularVerbs =
           "word": "sweat / sweated",
           "transcription": "swɛt / swɛɪtɪd"
         },
-        "name": [
-          "sweat",
-          "swɛt"
-        ],
         "translations": {
           "ua": "пітіти, бути вологим, запотівати",
           "ru": "потеть, сыреть, запотевать"
@@ -8764,10 +4639,6 @@ export const irregularVerbs =
           "word": "swept",
           "transcription": "swɛpt"
         },
-        "name": [
-          "sweep",
-          "swiːp"
-        ],
         "translations": {
           "ua": "підмітати, прочищати, змітати, мчатися",
           "ru": "мести, прочищать, сметать, мчаться"
@@ -8778,7 +4649,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(2 форма образуется как правильные глаголы, 3 – как неправильные)",
         "infinitive": {
           "word": "swell",
           "transcription": "swɛl"
@@ -8791,10 +4662,6 @@ export const irregularVerbs =
           "word": "swollen / swelled",
           "transcription": "ˈswəʊlən / swɛld"
         },
-        "name": [
-          "swell",
-          "swɛl"
-        ],
         "translations": {
           "ua": "пухнути, розпухати, набухати",
           "ru": "пухнуть, раздуваться, набухать"
@@ -8805,7 +4672,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(изменение гласных -i,-а,-u во всех 3 формах)",
         "infinitive": {
           "word": "swim",
           "transcription": "swɪm"
@@ -8818,10 +4685,6 @@ export const irregularVerbs =
           "word": "swum",
           "transcription": "swʌm"
         },
-        "name": [
-          "swim",
-          "swɪm"
-        ],
         "translations": {
           "ua": "плавати, плисти",
           "ru": "плавать, плыть"
@@ -8845,10 +4708,6 @@ export const irregularVerbs =
           "word": "swung",
           "transcription": "swʌŋ"
         },
-        "name": [
-          "swing",
-          "swɪŋ"
-        ],
         "translations": {
           "ua": "качати, розмахувати",
           "ru": "качать, размахивать"
@@ -8859,7 +4718,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "take",
           "transcription": "teɪk"
@@ -8872,10 +4731,6 @@ export const irregularVerbs =
           "word": "taken",
           "transcription": "ˈteɪkən"
         },
-        "name": [
-          "take",
-          "teɪk"
-        ],
         "translations": {
           "ua": "брати, взяти",
           "ru": "брать, взять"
@@ -8899,10 +4754,6 @@ export const irregularVerbs =
           "word": "taught",
           "transcription": "tɔːt"
         },
-        "name": [
-          "teach",
-          "tiːʧ"
-        ],
         "translations": {
           "ua": "навчати, вчити",
           "ru": "обучать, учить"
@@ -8913,7 +4764,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "tear",
           "transcription": "tɛr"
@@ -8926,10 +4777,6 @@ export const irregularVerbs =
           "word": "torn",
           "transcription": "tɔrn"
         },
-        "name": [
-          "tear",
-          "tɛr"
-        ],
         "translations": {
           "ua": "рвати, сорвати, розірвати",
           "ru": "рвать, сорвать, разорвать"
@@ -8940,7 +4787,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "telecast",
           "transcription": "ˈtɛlɪkæst"
@@ -8953,10 +4800,6 @@ export const irregularVerbs =
           "word": "telecast",
           "transcription": "ˈtɛlɪkæst"
         },
-        "name": [
-          "telecast",
-          "ˈtɛlɪkæst"
-        ],
         "translations": {
           "ua": "передавати по телебаченню",
           "ru": "передавать по телевидению"
@@ -8980,10 +4823,6 @@ export const irregularVerbs =
           "word": "told",
           "transcription": "toʊld"
         },
-        "name": [
-          "tell",
-          "tɛl"
-        ],
         "translations": {
           "ua": "говорити, розповідати, повідомляти",
           "ru": "говорить, рассказывать, сообщать"
@@ -8994,7 +4833,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "test-drive",
           "transcription": "tɛst draɪv"
@@ -9007,10 +4846,6 @@ export const irregularVerbs =
           "word": "test-driven",
           "transcription": "tɛst drɪvn"
         },
-        "name": [
-          "test-drive",
-          "tɛst draɪv"
-        ],
         "translations": {
           "ua": "робити пробний заїзд, тестувати",
           "ru": "делать пробную поездку, тестировать"
@@ -9021,7 +4856,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "test-fly",
           "transcription": "tɛst flaɪ"
@@ -9034,10 +4869,6 @@ export const irregularVerbs =
           "word": "test-flown",
           "transcription": "tɛst floʊn"
         },
-        "name": [
-          "test-fly",
-          "tɛst flaɪ"
-        ],
         "translations": {
           "ua": "випробовувати літак у повітрі",
           "ru": "испытывать самолет в воздухе"
@@ -9061,10 +4892,6 @@ export const irregularVerbs =
           "word": "thought",
           "transcription": "θɔt"
         },
-        "name": [
-          "think",
-          "θɪŋk"
-        ],
         "translations": {
           "ua": "думати, вважати",
           "ru": "думать, полагать"
@@ -9075,7 +4902,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "thrive",
           "transcription": "θraɪv"
@@ -9088,10 +4915,6 @@ export const irregularVerbs =
           "word": "thrived / thriven",
           "transcription": "θraɪvd / ˈθrɪvən"
         },
-        "name": [
-          "thrive",
-          "θraɪv"
-        ],
         "translations": {
           "ua": "процвітати, преуспівати, буйно рости",
           "ru": "процветать, преуспевать, буйно расти"
@@ -9102,7 +4925,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "throw",
           "transcription": "θroʊ"
@@ -9115,10 +4938,6 @@ export const irregularVerbs =
           "word": "thrown",
           "transcription": "θroʊn"
         },
-        "name": [
-          "throw",
-          "θroʊ"
-        ],
         "translations": {
           "ua": "кидати, кидати",
           "ru": "кидать, бросать"
@@ -9129,7 +4948,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "thrust",
           "transcription": "θrʌst"
@@ -9142,10 +4961,6 @@ export const irregularVerbs =
           "word": "thrust",
           "transcription": "θrʌst"
         },
-        "name": [
-          "thrust",
-          "θrʌst"
-        ],
         "translations": {
           "ua": "колоти, засовувати, тискати, лізти",
           "ru": "колоть, засовывать, толкать, лезть"
@@ -9156,7 +4971,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "tread",
           "transcription": "trɛd"
@@ -9169,10 +4984,6 @@ export const irregularVerbs =
           "word": "trodden / trod",
           "transcription": "ˈtrɑdən / trɑd"
         },
-        "name": [
-          "tread",
-          "trɛd"
-        ],
         "translations": {
           "ua": "іти, ступати, топтати, тиснути",
           "ru": "идти, ступать, топтать, давить"
@@ -9183,7 +4994,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "typecast",
           "transcription": "taɪpkæst"
@@ -9196,10 +5007,6 @@ export const irregularVerbs =
           "word": "typecast",
           "transcription": "taɪpkæst"
         },
-        "name": [
-          "typecast",
-          "taɪpkæst"
-        ],
         "translations": {
           "ua": "підбирати акторів за типажністю",
           "ru": "подбирать актеров по типажности"
@@ -9210,7 +5017,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v1 = v2",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "typeset",
           "transcription": "taɪpsɛt"
@@ -9223,10 +5030,6 @@ export const irregularVerbs =
           "word": "typeset",
           "transcription": "taɪpsɛt"
         },
-        "name": [
-          "typeset",
-          "taɪpsɛt"
-        ],
         "translations": {
           "ua": "набирати текст для друку, визначати тип",
           "ru": "набирать текст для печати, определять тип"
@@ -9237,7 +5040,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "typewrite",
           "transcription": "ˈtaɪpˌraɪt"
@@ -9250,10 +5053,6 @@ export const irregularVerbs =
           "word": "typewritten",
           "transcription": "ˈtaɪpˌrɪtn̩"
         },
-        "name": [
-          "typewrite",
-          "ˈtaɪpˌraɪt"
-        ],
         "translations": {
           "ua": "писати на друкарській машинці, набирати текст",
           "ru": "печатать на пишущей машинке, набирать текст"
@@ -9264,763 +5063,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unbend",
-          "transcription": "ʌnˈbɛnd"
-        },
-        "pastSimple": {
-          "word": "unbent",
-          "transcription": "ʌnˈbɛnt"
-        },
-        "pastParticiple": {
-          "word": "unbent",
-          "transcription": "ʌnˈbɛnt"
-        },
-        "name": [
-          "unbend",
-          "ʌnˈbɛnd"
-        ],
-        "translations": {
-          "ua": "розгинатися, випрямлятися, змягчуватися",
-          "ru": "разгибаться, выпрямляться, смягчаться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unbind",
-          "transcription": "ʌnˈbaɪnd"
-        },
-        "pastSimple": {
-          "word": "unbound",
-          "transcription": "ʌnˈbaʊnd"
-        },
-        "pastParticiple": {
-          "word": "unbound",
-          "transcription": "ʌnˈbaʊnd"
-        },
-        "name": [
-          "unbind",
-          "ʌnˈbaɪnd"
-        ],
-        "translations": {
-          "ua": "розв'язувати, розпускати, ослаблювати",
-          "ru": "развязать, распуска, ослаблять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unclothe",
-          "transcription": "ʌnˈkloʊð"
-        },
-        "pastSimple": {
-          "word": "unclothed / unclad",
-          "transcription": "ʌnˈkloʊðd / ʌnˈklæd"
-        },
-        "pastParticiple": {
-          "word": "unclothed / unclad",
-          "transcription": "ʌnˈkloʊðd / ʌnˈklæd"
-        },
-        "name": [
-          "unclothe",
-          "ʌnˈkloʊð"
-        ],
-        "translations": {
-          "ua": "роздягатися, роздягати, обнажати",
-          "ru": "раздеваться, раздевать, обнажать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "underbid",
-          "transcription": "ʌndərˈbɪd"
-        },
-        "pastSimple": {
-          "word": "underbid",
-          "transcription": "ʌndərˈbɪd"
-        },
-        "pastParticiple": {
-          "word": "underbid",
-          "transcription": "ʌndərˈbɪd"
-        },
-        "name": [
-          "underbid",
-          "ʌndərˈbɪd"
-        ],
-        "translations": {
-          "ua": "перебивати ціну, призначати більш низьку ціну",
-          "ru": "перебивать цену, назначать более низкую цену"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "undercut",
-          "transcription": "ʌndərˈkʌt"
-        },
-        "pastSimple": {
-          "word": "undercut",
-          "transcription": "ʌndərˈkʌt"
-        },
-        "pastParticiple": {
-          "word": "undercut",
-          "transcription": "ʌndərˈkʌt"
-        },
-        "name": [
-          "undercut",
-          "ʌndərˈkʌt"
-        ],
-        "translations": {
-          "ua": "підрізати, збивати ціни, робити підсічку",
-          "ru": "подрезать, сбивать цены, делать подсечку"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "underfeed",
-          "transcription": "ʌndərˈfiːd"
-        },
-        "pastSimple": {
-          "word": "underfed",
-          "transcription": "ʌndərˈfɛd"
-        },
-        "pastParticiple": {
-          "word": "underfed",
-          "transcription": "ʌndərˈfɛd"
-        },
-        "name": [
-          "underfeed",
-          "ʌndərˈfiːd"
-        ],
-        "translations": {
-          "ua": "недокармливати, недоїдати",
-          "ru": "недокармливать, недоедать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "undergo",
-          "transcription": "ʌndərˈɡoʊ"
-        },
-        "pastSimple": {
-          "word": "underwent",
-          "transcription": "ʌndərˈwɛnt"
-        },
-        "pastParticiple": {
-          "word": "undergone",
-          "transcription": "ʌndərˈɡɒn"
-        },
-        "name": [
-          "undergo",
-          "ʌndərˈɡoʊ"
-        ],
-        "translations": {
-          "ua": "випробовувати, переносити",
-          "ru": "испытывать, переносить"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "underlie",
-          "transcription": "ʌndərˈlaɪ"
-        },
-        "pastSimple": {
-          "word": "underlay",
-          "transcription": "ʌndərˈleɪ"
-        },
-        "pastParticiple": {
-          "word": "underlain",
-          "transcription": "ʌndərˈleɪn"
-        },
-        "name": [
-          "underlie",
-          "ʌndərˈlaɪ"
-        ],
-        "translations": {
-          "ua": "підкреслювати, виділяти",
-          "ru": "подчеркивать, выделять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "undersell",
-          "transcription": "ˌʌndərˈsɛl"
-        },
-        "pastSimple": {
-          "word": "undersold",
-          "transcription": "ˌʌndərˈsoʊld"
-        },
-        "pastParticiple": {
-          "word": "undersold",
-          "transcription": "ˌʌndərˈsoʊld"
-        },
-        "name": [
-          "undersell",
-          "ˌʌndərˈsɛl"
-        ],
-        "translations": {
-          "ua": "продавати дешевше інших",
-          "ru": "продавать дешевле других"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "underspend",
-          "transcription": "ˌʌndərˈspɛnd"
-        },
-        "pastSimple": {
-          "word": "underspent",
-          "transcription": "ˌʌndərˈspɛnt"
-        },
-        "pastParticiple": {
-          "word": "underspent",
-          "transcription": "ˌʌndərˈspɛnt"
-        },
-        "name": [
-          "underspend",
-          "ˌʌndərˈspɛnd"
-        ],
-        "translations": {
-          "ua": "тратити недостатньо, дуже мало",
-          "ru": "тратить недостаточно, очень мало"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "understand",
-          "transcription": "ˌʌndərˈstænd"
-        },
-        "pastSimple": {
-          "word": "understood",
-          "transcription": "ˌʌndərˈstʊd"
-        },
-        "pastParticiple": {
-          "word": "understood",
-          "transcription": "ˌʌndərˈstʊd"
-        },
-        "name": [
-          "understand",
-          "ˌʌndərˈstænd"
-        ],
-        "translations": {
-          "ua": "розуміти, усвідомлювати",
-          "ru": "понимать, осознавать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "undertake",
-          "transcription": "ˌʌndərˈteɪk"
-        },
-        "pastSimple": {
-          "word": "undertook",
-          "transcription": "ˌʌndərˈtʊk"
-        },
-        "pastParticiple": {
-          "word": "undertaken",
-          "transcription": "ˌʌndərˈteɪkən"
-        },
-        "name": [
-          "undertake",
-          "ˌʌndərˈteɪk"
-        ],
-        "translations": {
-          "ua": "прийматися, гарантувати, совершити",
-          "ru": "предпринимать, гарантировать, совершать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "high"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "underwrite",
-          "transcription": "ˌʌndərˈraɪt"
-        },
-        "pastSimple": {
-          "word": "underwrote",
-          "transcription": "ˌʌndərˈroʊt"
-        },
-        "pastParticiple": {
-          "word": "underwritten",
-          "transcription": "ˌʌndərˈrɪtn̩"
-        },
-        "name": [
-          "underwrite",
-          "ˌʌndərˈraɪt"
-        ],
-        "translations": {
-          "ua": "підписувати, гарантувати, ручатися",
-          "ru": "подписывать, гарантировать, ручаться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "undo",
-          "transcription": "ˌʌnˈdu"
-        },
-        "pastSimple": {
-          "word": "undid",
-          "transcription": "ʌnˈdɪd"
-        },
-        "pastParticiple": {
-          "word": "undone",
-          "transcription": "ˌʌnˈdʌn"
-        },
-        "name": [
-          "undo",
-          "ˌʌnˈdu"
-        ],
-        "translations": {
-          "ua": "розстібати, унічтожувати, скасовувати, розбирати",
-          "ru": "расстегивать, уничтожать, отменять, разбирать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "unfreeze",
-          "transcription": "ˌʌnˈfriːz"
-        },
-        "pastSimple": {
-          "word": "unfroze",
-          "transcription": "ˌʌnˈfroʊz"
-        },
-        "pastParticiple": {
-          "word": "unfrozen",
-          "transcription": "ˌʌnˈfroʊzən"
-        },
-        "name": [
-          "unfreeze",
-          "ˌʌnˈfriːz"
-        ],
-        "translations": {
-          "ua": "розморожувати, розморожуватися",
-          "ru": "размораживать, размораживаться"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unhang",
-          "transcription": "ʌnˈhæŋ"
-        },
-        "pastSimple": {
-          "word": "unhung",
-          "transcription": "ʌnˈhʌŋ"
-        },
-        "pastParticiple": {
-          "word": "unhung",
-          "transcription": "ʌnˈhʌŋ"
-        },
-        "name": [
-          "unhang",
-          "ʌnˈhæŋ"
-        ],
-        "translations": {
-          "ua": "знімати (висяче)",
-          "ru": "снимать (висящее)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "unhide",
-          "transcription": "ˌʌnˈhaɪd"
-        },
-        "pastSimple": {
-          "word": "unhid",
-          "transcription": "ˌʌnˈhɪd"
-        },
-        "pastParticiple": {
-          "word": "unhidden",
-          "transcription": "ˌʌnˈhɪdən"
-        },
-        "name": [
-          "unhide",
-          "ˌʌnˈhaɪd"
-        ],
-        "translations": {
-          "ua": "показувати приховані елементи",
-          "ru": "показывать скрытые элементы"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unknit",
-          "transcription": "ʌnˈnɪt"
-        },
-        "pastSimple": {
-          "word": "unknitted / unknit",
-          "transcription": "ˌʌnˈnɪtɪd / ʌnˈnɪt"
-        },
-        "pastParticiple": {
-          "word": "unknitted / unknit",
-          "transcription": "ˌʌnˈnɪtɪd / ʌnˈnɪt"
-        },
-        "name": [
-          "unknit",
-          "ʌnˈnɪt"
-        ],
-        "translations": {
-          "ua": "розпускати (в'язання), розплутувати, роз'єднувати",
-          "ru": "распускать (вязание), распутывать, разъединять"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unlearn",
-          "transcription": "ʌnˈlɜːrn"
-        },
-        "pastSimple": {
-          "word": "unlearned / unlearnt",
-          "transcription": "ˌʌnˈlɜːrnd / ˌʌnˈlɜːnt"
-        },
-        "pastParticiple": {
-          "word": "unlearned / unlearnt",
-          "transcription": "ˌʌnˈlɜːrnd / ˌʌnˈlɜːnt"
-        },
-        "name": [
-          "unlearn",
-          "ʌnˈlɜːrn"
-        ],
-        "translations": {
-          "ua": "розучуватися, забувати те, що знали",
-          "ru": "разучиваться, забывать то, что знал"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "unsew",
-          "transcription": "ʌnˈsoʊ"
-        },
-        "pastSimple": {
-          "word": "unsewed",
-          "transcription": "ʌnˈsoʊd"
-        },
-        "pastParticiple": {
-          "word": "unsewn / unsewed",
-          "transcription": "ʌnˈsoʊn / ʌnˈsoʊd"
-        },
-        "name": [
-          "unsew",
-          "ʌnˈsoʊ"
-        ],
-        "translations": {
-          "ua": "розпаровувати зшите",
-          "ru": "распарывать сшитое"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unsling",
-          "transcription": "ʌnˈslɪŋ"
-        },
-        "pastSimple": {
-          "word": "unslung",
-          "transcription": "ʌnˈslʌŋ"
-        },
-        "pastParticiple": {
-          "word": "unslung",
-          "transcription": "ʌnˈslʌŋ"
-        },
-        "name": [
-          "unsling",
-          "ʌnˈslɪŋ"
-        ],
-        "translations": {
-          "ua": "відв'язувати, знімати, звільняти від ременя",
-          "ru": "отвязывать, снимать, освобождать от ремня"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unspin",
-          "transcription": "ʌnˈspɪn"
-        },
-        "pastSimple": {
-          "word": "unspun",
-          "transcription": "ˌʌnˈspʌn"
-        },
-        "pastParticiple": {
-          "word": "unspun",
-          "transcription": "ˌʌnˈspʌn"
-        },
-        "name": [
-          "unspin",
-          "ʌnˈspɪn"
-        ],
-        "translations": {
-          "ua": "розпускати, розплітати, розпутувати",
-          "ru": "распускать, расплетать, распутывать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unstick",
-          "transcription": "ʌnˈstɪk"
-        },
-        "pastSimple": {
-          "word": "unstuck",
-          "transcription": "ʌnˈstʌk"
-        },
-        "pastParticiple": {
-          "word": "unstuck",
-          "transcription": "ʌnˈstʌk"
-        },
-        "name": [
-          "unstick",
-          "ʌnˈstɪk"
-        ],
-        "translations": {
-          "ua": "відірати, відклеювати, злітати (літак)",
-          "ru": "отдирать, отклеивать, взлетать (самолет)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unstring",
-          "transcription": "ʌnˈstrɪŋ"
-        },
-        "pastSimple": {
-          "word": "unstrung",
-          "transcription": "ʌnˈstrʌŋ"
-        },
-        "pastParticiple": {
-          "word": "unstrung",
-          "transcription": "ʌnˈstrʌŋ"
-        },
-        "name": [
-          "unstring",
-          "ʌnˈstrɪŋ"
-        ],
-        "translations": {
-          "ua": "знімати, ослаблювати, розпускати, обурювати",
-          "ru": "снимать, ослаблять, распускать, огорчать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
-        "infinitive": {
-          "word": "unweave",
-          "transcription": "ʌnˈwiːv"
-        },
-        "pastSimple": {
-          "word": "unwove / unweaved",
-          "transcription": "ʌnˈwoʊv / ʌnˈwiːvd"
-        },
-        "pastParticiple": {
-          "word": "unwoven / unweaved",
-          "transcription": "ʌnˈwoʊvən / ʌnˈwiːvd"
-        },
-        "name": [
-          "unweave",
-          "ʌnˈwiːv"
-        ],
-        "translations": {
-          "ua": "розпускати, розплітати (тканину)",
-          "ru": "распускать, расплетать (ткань)"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "unwind",
-          "transcription": "ˌʌnˈwaɪnd"
-        },
-        "pastSimple": {
-          "word": "unwound",
-          "transcription": "ʌnˈwaʊnd"
-        },
-        "pastParticiple": {
-          "word": "unwound",
-          "transcription": "ʌnˈwaʊnd"
-        },
-        "name": [
-          "unwind",
-          "ˌʌnˈwaɪnd"
-        ],
-        "translations": {
-          "ua": "розматувати, розкручувати, розвивати",
-          "ru": "расматывать, раскручивать, развивать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v2 = v3",
-        "infinitive": {
-          "word": "uphold",
-          "transcription": "ʌpˈhoʊld"
-        },
-        "pastSimple": {
-          "word": "upheld",
-          "transcription": "ʌpˈhɛld"
-        },
-        "pastParticiple": {
-          "word": "upheld",
-          "transcription": "ʌpˈhɛld"
-        },
-        "name": [
-          "uphold",
-          "ʌpˈhoʊld"
-        ],
-        "translations": {
-          "ua": "підтримувати, допомагати, утримувати",
-          "ru": "поддерживать, помогать, удерживать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "v1 = v2",
-        "infinitive": {
-          "word": "upset",
-          "transcription": "ʌpˈsɛt"
-        },
-        "pastSimple": {
-          "word": "upset",
-          "transcription": "ʌpˈsɛt"
-        },
-        "pastParticiple": {
-          "word": "upset",
-          "transcription": "ʌpˈsɛt"
-        },
-        "name": [
-          "upset",
-          "ʌpˈsɛt"
-        ],
-        "translations": {
-          "ua": "опрокидувати, розстроювати, обурювати",
-          "ru": "опрокидывать, расстраивать, огорчать"
-        },
-        "image": {
-          "url": ""
-        },
-        "frequencyOfUse": "average"
-      },
-      {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "wake",
           "transcription": "weɪk"
@@ -10033,10 +5076,6 @@ export const irregularVerbs =
           "word": "woken / waked",
           "transcription": "ˈwoʊkən / weɪkt"
         },
-        "name": [
-          "wake",
-          "weɪk"
-        ],
         "translations": {
           "ua": "будити, прокидатися",
           "ru": "будить, просыпаться"
@@ -10060,10 +5099,6 @@ export const irregularVerbs =
           "word": "waylaid",
           "transcription": "ˈweɪleɪd"
         },
-        "name": [
-          "waylay",
-          "ˈweɪleɪ"
-        ],
         "translations": {
           "ua": "підстерігати, устрашувати засідкою",
           "ru": "подстерегать, устраивать засаду"
@@ -10074,7 +5109,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "wear",
           "transcription": "wɛr"
@@ -10087,10 +5122,6 @@ export const irregularVerbs =
           "word": "worn",
           "transcription": "wɔrn"
         },
-        "name": [
-          "wear",
-          "wɛr"
-        ],
         "translations": {
           "ua": "носити (одяг)",
           "ru": "носить (одежду)"
@@ -10101,7 +5132,7 @@ export const irregularVerbs =
         "frequencyOfUse": "high"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "weave",
           "transcription": "wiv"
@@ -10114,10 +5145,6 @@ export const irregularVerbs =
           "word": "woven / weaved",
           "transcription": "ˈwoʊvən / weɪvd"
         },
-        "name": [
-          "weave",
-          "wiv"
-        ],
         "translations": {
           "ua": "ткати, плести",
           "ru": "ткать, плести"
@@ -10128,7 +5155,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "wed",
           "transcription": "wɛd / ˈwɛdɪd"
@@ -10141,10 +5168,6 @@ export const irregularVerbs =
           "word": "wed / wedded",
           "transcription": "wɛd / ˈwɛdɪd"
         },
-        "name": [
-          "wed",
-          "wɛd / ˈwɛdɪd"
-        ],
         "translations": {
           "ua": "венчати, виходити заміж, женити, видає заміж",
           "ru": "венчать, выходить замуж, жениться, выдавать замуж"
@@ -10168,10 +5191,6 @@ export const irregularVerbs =
           "word": "wept",
           "transcription": "wɛpt"
         },
-        "name": [
-          "weep",
-          "wiːp"
-        ],
         "translations": {
           "ua": "плакати, тужити, запотівати",
           "ru": "плакать, тосковать, запотевать"
@@ -10182,7 +5201,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "v2 = v3",
+        "group": "v1 = v2 = v3",
         "infinitive": {
           "word": "wet",
           "transcription": "wɛt / ˈwɛtɪd"
@@ -10195,10 +5214,6 @@ export const irregularVerbs =
           "word": "wet / wetted",
           "transcription": "wɛt / ˈwɛtɪd"
         },
-        "name": [
-          "wet",
-          "wɛt / ˈwɛtɪd"
-        ],
         "translations": {
           "ua": "мочити, промочувати, мокнути",
           "ru": "мочить, промочить, мокнуть"
@@ -10222,10 +5237,6 @@ export const irregularVerbs =
           "word": "won",
           "transcription": "wʌn"
         },
-        "name": [
-          "win",
-          "wɪn"
-        ],
         "translations": {
           "ua": "вигравати, перемагати",
           "ru": "выигрывать, побеждать"
@@ -10249,10 +5260,6 @@ export const irregularVerbs =
           "word": "wound",
           "transcription": "waʊnd"
         },
-        "name": [
-          "wind",
-          "waɪnd"
-        ],
         "translations": {
           "ua": "чути, дути, наматувати, заводити (механізм), вививатися",
           "ru": "чуять, дуть, наматывать, заводить (механизм), извиваться"
@@ -10263,7 +5270,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(в основе 2 формы ew, 3 – own, awn)",
         "infinitive": {
           "word": "withdraw",
           "transcription": "wɪðˈdrɔː"
@@ -10276,10 +5283,6 @@ export const irregularVerbs =
           "word": "withdrawn",
           "transcription": "wɪðˈdrɔːn"
         },
-        "name": [
-          "withdraw",
-          "wɪðˈdrɔː"
-        ],
         "translations": {
           "ua": "брати назад, забирати, відмовлятися, витягувати",
           "ru": "брать назад, отнимать, отзывать, извлекать"
@@ -10303,10 +5306,6 @@ export const irregularVerbs =
           "word": "withheld",
           "transcription": "wɪðˈhɛld"
         },
-        "name": [
-          "withhold",
-          "wɪðˈhoʊld"
-        ],
         "translations": {
           "ua": "утримуватися, утримувати, приховувати",
           "ru": "воздерживаться, удерживать, скрывать"
@@ -10330,10 +5329,6 @@ export const irregularVerbs =
           "word": "withstood",
           "transcription": "wɪðˈstʊd"
         },
-        "name": [
-          "withstand",
-          "wɪðˈstænd"
-        ],
         "translations": {
           "ua": "витримувати, відстоювати, протистояти",
           "ru": "устоять, выдерживать, сопротивляться"
@@ -10357,10 +5352,6 @@ export const irregularVerbs =
           "word": "wrung",
           "transcription": "rʌŋ"
         },
-        "name": [
-          "wring",
-          "rɪŋ"
-        ],
         "translations": {
           "ua": "крутити, терзати, вижимати, скручувати",
           "ru": "крутить, терзать, выжимать, скручивать"
@@ -10371,7 +5362,7 @@ export const irregularVerbs =
         "frequencyOfUse": "average"
       },
       {
-        "group": "different",
+        "group": "(1 форма = 3 + (e)n)",
         "infinitive": {
           "word": "write",
           "transcription": "raɪt"
@@ -10384,10 +5375,6 @@ export const irregularVerbs =
           "word": "written",
           "transcription": "ˈrɪtən"
         },
-        "name": [
-          "write",
-          "raɪt"
-        ],
         "translations": {
           "ua": "писати",
           "ru": "писать"
@@ -10397,6 +5384,6 @@ export const irregularVerbs =
         },
         "frequencyOfUse": "high"
       }
-    ],
+    ]
   }
 ;
