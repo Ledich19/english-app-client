@@ -22,8 +22,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeRegistry options={{ key: "mui" }}>
           <Paper>
-            <Container>
               <Navbar />
+            <Container maxWidth="xl" sx={{ padding: { xs: 0, sm: 0, md: 0, lg: 0, xl: 0 }, marginTop: "68px" }}>
               {children}
               <Footer />
             </Container>

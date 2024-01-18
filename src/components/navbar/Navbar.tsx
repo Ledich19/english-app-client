@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed" sx={{ top: 0 }} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Link href="/">

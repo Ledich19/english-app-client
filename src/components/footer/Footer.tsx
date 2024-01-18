@@ -1,15 +1,20 @@
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import Container from "@mui/material/Container";
+import {  Toolbar } from "@mui/material";
 import Typography from "@mui/material/Typography";
+import { StyledAppBar } from "./Footer.styles";
+
+
+
 
 const Footer = () => {
+
   return (
-    <Box>
-      <Card>
-        <Typography variant="h3">Footer</Typography>
-      </Card>
-    </Box>
+    <StyledAppBar position="static">
+    <Toolbar>
+      <Typography variant="body1">
+        &copy; {new Date().getFullYear()} Ваше название. Все права защищены.
+      </Typography>
+    </Toolbar>
+  </StyledAppBar>
   );
 };
 export default Footer;
